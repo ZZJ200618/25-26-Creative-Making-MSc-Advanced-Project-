@@ -45,6 +45,7 @@ For Bataa, I looked at the long robe, belted waist, hat and boots associated wit
 I settled on a cream robe, blue trim, leather belt and boots. The light clothing stands out against the grass, and the trim connects him visually to the ger. The hat, hairstyle and accessories remain stylised design choices. The costume sheet explores alternatives; the turnaround clarifies the front, side and back for 3D modelling.
 
 ![Uploading d7dad4d0fff4c9ba9f3028ed65d32d52.png…]()
+
 <img width="1536" height="1024" alt="2d2cd9177f3cf50a3aee54e2f08b0bc9" src="https://github.com/user-attachments/assets/a4ad28d1-1ee3-4875-a83d-01be927ac102" />
 
 
