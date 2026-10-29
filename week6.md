@@ -38,8 +38,6 @@ For Bataa, I looked at the long robe, belted waist, hat and boots associated wit
 
 *Everyday clothing reference: [Mongolian National Commission for UNESCO (2024)](https://www.unesco.mn/20/nitem).*
 
-![Dariganga clothing exhibited in the National Museum of Mongolia](https://upload.wikimedia.org/wikipedia/commons/a/a2/Dariganga_Traditional_Clothing_%2835579174491%29.jpg)
-
 *Robe, sash and boots: Gary Todd (2017), Dariganga clothing, National Museum of Mongolia. [Photograph, CC0](https://commons.wikimedia.org/wiki/File:Dariganga_Traditional_Clothing_%2835579174491%29.jpg). Used to compare garment construction, rather than assign Bataa a specific regional costume.*
 
 I settled on a cream robe, blue trim, leather belt and boots. The light clothing stands out against the grass, and the trim connects him visually to the ger. The hat, hairstyle and accessories remain stylised design choices. The costume sheet explores alternatives; the turnaround clarifies the front, side and back for 3D modelling.
