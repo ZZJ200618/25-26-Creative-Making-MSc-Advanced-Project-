@@ -23,10 +23,10 @@ The white cover, blue borders and wooden door connect these references to my mod
 ## Building and fixing the ger
 
 I assembled the wall, roof sections, crown and entrance in Blender, checking the model in wireframe, from above and as a solid form. The basic geometry was manageable. Keeping the decorative bands level around a curved wall was harder.
-<img width="2559" height="1509" alt="a5383820423af928239b30171e18821f" src="https://git.arts.ac.uk/user-attachments/assets/92c231b0-21e3-4f28-ac93-d1d9f4f16b04" />
-<img width="2559" height="1509" alt="a5383820423af928239b30171e18821f" src="https://git.arts.ac.uk/user-attachments/assets/fc36b862-b0db-4165-9068-1b5342d101c7" />
-<img width="2559" height="1521" alt="570dbb782091045660237a6c374be092" src="https://git.arts.ac.uk/user-attachments/assets/bcf33f7d-93b6-4fa7-a7fd-b62b881c9041" />
-<img width="2559" height="1524" alt="9c149eaa820ba175830e7de616f94b6f" src="https://git.arts.ac.uk/user-attachments/assets/1a19d435-2c9b-40af-a99e-c6802a7320e5" />
+<img width="2559" height="1527" alt="fc735505499dbcbe56c733da41ba0443" src="https://github.com/user-attachments/assets/bfc1c119-5415-4626-8ea4-3eb6b0421340" />
+<img width="2559" height="1524" alt="9c149eaa820ba175830e7de616f94b6f" src="https://github.com/user-attachments/assets/3a8cab0e-f4bb-445f-8412-0135d6cdc728" />
+<img width="2559" height="1521" alt="570dbb782091045660237a6c374be092" src="https://github.com/user-attachments/assets/4c5dd104-04bc-4e10-b834-0defc8cbac88" />
+<img width="2559" height="1509" alt="a5383820423af928239b30171e18821f" src="https://github.com/user-attachments/assets/cc5a71e4-5caf-42da-823b-f4b04128bf93" />
 
 
 
@@ -44,22 +44,23 @@ For Bataa, I looked at the long robe, belted waist, hat and boots associated wit
 
 I settled on a cream robe, blue trim, leather belt and boots. The light clothing stands out against the grass, and the trim connects him visually to the ger. The hat, hairstyle and accessories remain stylised design choices. The costume sheet explores alternatives; the turnaround clarifies the front, side and back for 3D modelling.
 
-<img width="1536" height="1024" alt="image" src="https://git.arts.ac.uk/user-attachments/assets/e1ef0c79-beb6-43c1-96f3-6b0eafaf56fd" />
-<img width="1857" height="847" alt="image" src="https://git.arts.ac.uk/user-attachments/assets/d5c9e891-f288-4d74-bab9-76e64fad2154" />
+![Uploading d7dad4d0fff4c9ba9f3028ed65d32d52.png…]()
+<img width="1536" height="1024" alt="2d2cd9177f3cf50a3aee54e2f08b0bc9" src="https://github.com/user-attachments/assets/a4ad28d1-1ee3-4875-a83d-01be927ac102" />
 
 
 ## Character production and my limits
 
 I used **Tripo AI for the base character** and **Mixamo for body rigging and animation**. My knowledge of anatomy and facial muscles is still limited, and my own modelling attempts were not at the quality I wanted. I estimated that building the full character to that standard would take at least a month. With the available time, I prioritised the interaction and learning experience.
-<img width="2052" height="936" alt="5dbf10707d5a48641339b817c451b48f" src="https://git.arts.ac.uk/user-attachments/assets/7318c992-be20-47f3-8369-945914bf13ca" />
-<img width="2559" height="1329" alt="dbb184ef4f2a4af13820c733dc54331c" src="https://git.arts.ac.uk/user-attachments/assets/7a279918-a140-48cf-b5f7-8f3e8d0ed1bf" />
+<img width="2559" height="1329" alt="dbb184ef4f2a4af13820c733dc54331c" src="https://github.com/user-attachments/assets/8ed1954d-e058-4a68-b8cd-3f956693abd7" />
+<img width="2052" height="936" alt="5dbf10707d5a48641339b817c451b48f" src="https://github.com/user-attachments/assets/255c367b-a8a6-49e3-a0ad-859f7d13fddd" />
 
 
 
 Because Bataa needs to speak, I reworked the facial topology in Blender. The body and face checks below document that stage. The mouth still needed deformation and lip-sync testing; changing topology alone did not guarantee natural speech.
-<img width="2559" height="1521" alt="b46d66fa8d87187ee29cec8720a9b0eb" src="https://git.arts.ac.uk/user-attachments/assets/7f82e26e-57da-4c7c-9f0e-ea53a52b8df1" />
-<img width="2559" height="1527" alt="08e240b9d2bdca4fc3c1b397fd01180f" src="https://git.arts.ac.uk/user-attachments/assets/1ef8bbd3-0db9-4cc6-b292-d0702815920c" />
-<img width="2559" height="1518" alt="716c090c095da62afe0b21cb8e267094" src="https://git.arts.ac.uk/user-attachments/assets/6b012020-d53f-429f-92da-64f46afc0ca2" />
+<img width="2559" height="1518" alt="716c090c095da62afe0b21cb8e267094" src="https://github.com/user-attachments/assets/17492b2c-7396-4808-b39d-5fb12f734f48" />
+<img width="2559" height="1527" alt="08e240b9d2bdca4fc3c1b397fd01180f" src="https://github.com/user-attachments/assets/ce51ed5a-41d1-4377-9960-6cfd74a596b5" />
+<img width="2559" height="1521" alt="b46d66fa8d87187ee29cec8720a9b0eb" src="https://github.com/user-attachments/assets/5f697e56-b90e-45c8-9b89-c8c48c28e3c6" />
+
 
 
 
