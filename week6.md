@@ -1,4 +1,4 @@
-# Week 06 — MOdeling
+# Week 06 — Modeling
 
 This week I built the ger in Blender and prepared Bataa, the guide who introduces the grassland to the player.
 
