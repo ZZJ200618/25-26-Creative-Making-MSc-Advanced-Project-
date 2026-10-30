@@ -8,36 +8,36 @@ I used [Grass Physics Asset by ST Shaded Technology](https://assetstore.unity.co
 
 The first editor view shows the Terrain, GrassPhysicsArea and GrassManager in the scene hierarchy. A live Scene View capture from the active FullPhysicsDemo scene records the grass setup; it is a grass test scene and does not contain the later river composition.
 
-![GrassPhysics setup in the Unity Editor](images/week07_grassphysics_setup.png)
+![GrassPhysics setup in the Unity Editor](images/07grassphysicssetup.png)
 
 *The first grass setup, with the Terrain, GrassPhysicsArea and GrassManager visible in the hierarchy.*
 
-![Live Unity Scene View grass capture](images/week07_unity_sceneview.png)
+![Live Unity Scene View grass capture](images/07unitysceneview.png)
 
 
 I tested the grass coverage, started extending the playable landscape and began adding a river. The recovered process image shows the first field test and the water entering the edge of the scene.
 
-![Initial spring grass coverage and terrain test](images/week07_grass_coverage_initial.png)
+![Initial spring grass coverage and terrain test](images/07grasscoverageinitial.png)
 
 
 ## Adding landmarks and life
 
 I added flowers as visual points of interest so that the player would have reasons to move through the grassland. I then placed cattle, sheep and horses, followed by a ger. The flowers, livestock and other environmental models came from public free assets. The ger, character and furniture were custom-made for the project.
 
-![River, flower patches, livestock and first ger](images/week07_river_animals_ger.png)
+![River, flower patches, livestock and first ger](images/07riveranimalsger.png)
 
 
 ## Testing coverage and terrain shape
 
 I compared dense grass with a deliberately sparse lawn to see how much coverage the scene needed. The test made the open ground and the flower clusters easier to judge. I then reshaped the terrain with surrounding slopes and added two more gers, giving the meadow a more enclosed feel and creating additional destinations.
 
-![Meadow coverage test with surrounding slopes and gers](images/week07_meadow_slope_test.png)
+![Meadow coverage test with surrounding slopes and gers](images/07meadowslopetest.png)
 
 
 
 The first play-mode start view brought the main elements together: river, grass, flowers, livestock and three gers. This helped me check how the scene reads from a player's starting position rather than only from the editor.
 
-![First playable start view of the spring grassland](images/week07_start_view_play.png)
+![First playable start view of the spring grassland](images/07startviewplay.png)
 
 
 ## Reflection

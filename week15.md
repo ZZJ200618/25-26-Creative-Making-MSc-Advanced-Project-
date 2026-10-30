@@ -1,15 +1,15 @@
 # Week 15 — The Summer Chapter
 Grass and water are plentiful; keep the camp off ground that floods." The problem is too much of it. The player has to find dry, safe ground in a landscape where rain collects in every low place.
 
-<a name="easy card"><img src="images/week15_00_easy_card.jpg" alt="easy card" width="100%"></a>
+<a name="easy card"><img src="images/1500easycard.jpg" alt="easy card" width="100%"></a>
 *The difficulty screen for the summer chapter. The short description tells the player what this season is about before they enter it.*
 
 ## The grassland in summer
 
-<a name="overview"><img src="images/week15_01_overview.jpg" alt="overview" width="100%"></a>
+<a name="overview"><img src="images/1501overview.jpg" alt="overview" width="100%"></a>
 *The summer grassland in rain, seen from the hill above the camp. The low ground between the hills holds water.*
 
-<a name="grass"><img src="images/week15_02_grass.jpg" alt="grass" width="100%"></a>
+<a name="grass"><img src="images/1502grass.jpg" alt="grass" width="100%"></a>
 *Tall summer grass on the gentle slopes. In the rain, it hides small dips in the ground.*
 
 In summer, the steppe is at its greenest, so the grass in this level is taller and thicker than in the spring tutorial. It reaches roughly knee height and covers the whole map in one even colour. This looks rich, but it also makes the level harder to read. In spring, the player could see the shape of the ground clearly. In summer, the tall grass hides small hollows and changes in height, so a spot that looks flat and green may actually be a shallow dip that fills with water when it rains. The player has to look at the ground more carefully instead of trusting the colour of the grass.
@@ -18,10 +18,10 @@ The weather adds to this. It rains throughout the level, and there is light fog 
 
 ## Water: a river and a lake
 
-<a name="lake and herd"><img src="images/week15_03_lake_herd.jpg" alt="lake and herd" width="100%"></a>
+<a name="lake and herd"><img src="images/1503lakeherd.jpg" alt="lake and herd" width="100%"></a>
 *The lake in the low basin north of the camp. The cattle, sheep and horses gather around the water.*
 
-<a name="map"><img src="images/week15_04_map.jpg" alt="map" width="100%"></a>
+<a name="map"><img src="images/1504map.jpg" alt="map" width="100%"></a>
 *The summer map. A river and a lake run along the north of the area, and the existing camp sits to the south.*
 
 The spring tutorial had one clear river that ran close to the camp. In summer, the water is split into two shapes: a river that winds along the north of the map and a wider lake in a basin between the hills. Together they cover a much larger area. Summer camps are traditionally placed along rivers and in well-watered lowlands, where people and animals can reach drinking water easily and the grass is good (Ono and Ishikawa, 2020). I followed this, so water is never far away in this chapter. However, the lowland near the water is also the land most likely to flood. The level puts the most useful resource and the biggest risk in the same place, and the player has to find the balance between them.
@@ -36,10 +36,10 @@ Because of this, summer is the first chapter where the herd is part of the score
 
 ## Camp placement
 
-<a name="flood report"><img src="images/week15_05_flood_report.jpg" alt="flood report" width="100%"></a>
+<a name="flood report"><img src="images/1505floodreport.jpg" alt="flood report" width="100%"></a>
 *A camp placed in a grassy hollow. It looks dry, but the report gives a cross for drainage and explains that the site is "held down by a low hollow, floods in rain".*
 
-<a name="good report"><img src="images/week15_06_good_report.jpg" alt="good report" width="100%"></a>
+<a name="good report"><img src="images/1506goodreport.jpg" alt="good report" width="100%"></a>
 *A camp on a gentle rise west of the lake. It is close to water and the herd, with good drainage and flat ground.*
 
 In summer, the most important part of the score is flooding. The settle tool compares the height of the chosen spot with the ground around it, over a wider area than in spring. If the spot is lower than its surroundings, it is treated as a place where rain will collect. In summer, this flood check makes up the largest share of the score, more than distance to water, flatness, grass or the herd. When a site is badly placed, the report does not only give a lower number. It also names the main reason in plain words, such as "low hollow, floods in rain" or "far from water and herds". The yurt types also matter here. The rainy yurt, with its waterproof crown, softens the flood penalty, so a player who reads the season correctly can choose the right yurt as well as the right place.

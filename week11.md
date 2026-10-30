@@ -8,7 +8,7 @@ Wind should be the broadest sound in the meadow: a soft, steady layer that gives
 
 The current spring scene already has a looping bird-and-lark ambience, grass footsteps, and occasional spatial animal calls. The grass footstep sound plays when the player is moving on the ground. A dedicated spring wind loop and continuous grass rustle are not connected yet, so the animated meadow is still quieter than it looks. Adding those layers is the next sound task; they should stay gentle so they leave room for conversation and the other environmental cues. Haehn, Schlittmeier and Böffel (2024) examine ambient and character sounds as distinct parts of the player experience, which helped me think about the landscape bed, footsteps and animal calls as separate layers to balance.
 
-![Open meadow with tall grass, animals and the surrounding landscape](images/week11_meadow.png)
+![Open meadow with tall grass, animals and the surrounding landscape](images/11meadow.png)
 
 *The open meadow is the setting for the wind, grass and distant animal layers.*
 
@@ -18,7 +18,7 @@ The transition into a ger should feel quieter and more enclosed than walking thr
 
 There is not yet a separate felt, doorway or roof sound, so the interior is suggested through the quieter background and changed footsteps rather than a full set of ger-specific effects. I would like to add a very subtle fabric or door movement sound later, then check that it feels natural and does not play every time the player makes a small movement.
 
-![The ger interior and its open entrance](images/week11_ger_threshold.png)
+![The ger interior and its open entrance](images/11gerthreshold.png)
 
 *The entrance marks the change from the open field to the quieter interior.*
 
@@ -28,7 +28,7 @@ The river is both part of the landscape and a sound landmark. Instead of keeping
 
 Meta's spatial-audio guidance describes direction and distance as important cues for locating sounds in immersive spaces. Unity's Audio Source settings provide spatial blend and distance roll-off controls that support this kind of change. In this scene, the sound of water can quietly guide the player toward the river while leaving the meadow calm when they are farther away.
 
-![The river running between grass banks and the gers](images/week11_riverbank.png)
+![The river running between grass banks and the gers](images/11riverbank.png)
 
 *The river gives the player a sound landmark to approach and follow.*
 

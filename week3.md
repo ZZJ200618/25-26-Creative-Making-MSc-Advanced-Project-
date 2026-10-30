@@ -14,7 +14,7 @@ A meta-analysis by Ventura and colleagues found some evidence that VR can suppor
 
 ### Red Dead Redemption 2 — the freedom to explore
 
-![Red Dead Redemption 2: a rider follows a river through open grassland](images/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20261029155532_420_39.png)
+![Red Dead Redemption 2: a rider follows a river through open grassland](images/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%872026102915553242039.png)
 
 *Image: [GamesRadar](https://www.gamesradar.com/red-dead-redemption-2-tips/).* 
 
@@ -22,7 +22,7 @@ This is my main exploration and visual reference. Like RDR2, I want players to n
 
 ### The Long Dark — reading the environment
 
-![The Long Dark: a lone traveller in a snowy wilderness](images/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20261029155540_421_39.png)
+![The Long Dark: a lone traveller in a snowy wilderness](images/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%872026102915554042139.png)
 
 *Image: [GameSatış](https://www.gamesatis.com/blog/diger-oyun-haberleri/en-iyi-hayatta-kalma-oyunlari).* 
 
@@ -30,7 +30,7 @@ The Long Dark makes weather, terrain, and resources matter to how the player mov
 
 ### Shelter 2 — animal needs
 
-![Shelter 2: a lynx and her cub explore a wide landscape](images/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20261029155548_422_39.png)
+![Shelter 2: a lynx and her cub explore a wide landscape](images/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%872026102915554842239.png)
 
 *Image: [Steam](https://store.steampowered.com/app/275100/Shelter_2/).* 
 
@@ -38,7 +38,7 @@ Shelter 2 makes caring for animals part of the player’s role. I can use that a
 
 ### Never Alone — culture in the game itself
 
-![Never Alone: Nuna and Fox travel through a snowstorm](images/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20261029155557_423_39.png)
+![Never Alone: Nuna and Fox travel through a snowstorm](images/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%872026102915555742339.png)
 
 *Image: [Steam screenshot page](https://steamdb.info/app/295790/screenshots/).* 
 

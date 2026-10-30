@@ -42,7 +42,7 @@ The following games provide references for different forms of bodily participati
 
 ### Beat Saber — Movement and Immediate Feedback
 
-![Beat Saber gameplay showing red and blue sabers and approaching blocks](images/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20261029155501_418_39.png)
+![Beat Saber gameplay showing red and blue sabers and approaching blocks](images/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%872026102915550141839.png)
 
 
 Beat Saber offers a reference for coordinating physical movement with visible and audible feedback. Its rhythm-based interaction makes bodily action central to play. [Official website](https://beatsaber.com/)
@@ -51,7 +51,7 @@ Beat Saber offers a reference for coordinating physical movement with visible an
 
 ### Half-Life: Alyx — Acting Within a Situated Role
 
-![Half-Life Alyx first-person gameplay showing a virtual hand and the surrounding environment](images/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20261029155511_419_39.png)
+![Half-Life Alyx first-person gameplay showing a virtual hand and the surrounding environment](images/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%872026102915551141939.png)
 
 
 Half-Life: Alyx places the player in a named character’s role and makes interaction with surrounding objects an important part of its VR experience. [Official website](https://www.half-life.com/en/alyx)

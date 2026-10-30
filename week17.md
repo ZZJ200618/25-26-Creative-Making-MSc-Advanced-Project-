@@ -4,7 +4,7 @@ This week I worked on the last and hardest chapter of the game, deep winter. On 
 
 ## Snow over the grassland
 
-<a name="overview"><img src="images/week17_01_overview.jpg" alt="overview" width="100%"></a>
+<a name="overview"><img src="images/1701overview.jpg" alt="overview" width="100%"></a>
 *The winter steppe near the family camp. Snow covers the ground, and only tufts of dry grass show through.*
 
 The terrain is the same kind of rolling steppe as before, but it is now covered by snow of different depths. I painted the ground with two snow layers, a shallow one and a deep drift layer, and gave the level a separate snow depth map that the game reads when the player chooses a camp. Where the wind blows across open slopes, the snow is thin and dry grass sticks out above it. On the sheltered side of ridges, the wind drops the snow it carries, so deep drifts build up there. This is the opposite of what a beginner might expect. The place that feels safest from the wind is often where the snow is deepest.
@@ -13,7 +13,7 @@ The grass also changes. Instead of green summer grass, the level uses short, dry
 
 ## A frozen river with a few open reaches
 
-<a name="river"><img src="images/week17_02_river.jpg" alt="river" width="100%"></a>
+<a name="river"><img src="images/1702river.jpg" alt="river" width="100%"></a>
 *The river in winter. Most of it is covered by ice and snow, and only a few short sections stay open. Steep snowy banks make some parts hard to reach.*
 
 In the earlier chapters, water was easy to see and easy to reach. In winter, the river is mostly frozen. Only three short reaches stay open, and these are the only places where the family and animals can drink. The settle tool therefore no longer measures the distance to the river. It measures the walking route to the nearest open water. The route cannot cross ice, and deep snow along the way makes it count as longer. A camp that looks close to the river on the map may actually be a long walk from drinkable water, and the site report says this in plain words, for example "35 m, detour to open water" or "no open water within reach".
@@ -22,7 +22,7 @@ The banks also matter. On one side of the river, there is a gentle entry where t
 
 ## Animals in the snow
 
-<a name="herd"><img src="images/week17_03_herd.jpg" alt="herd" width="100%"></a>
+<a name="herd"><img src="images/1703herd.jpg" alt="herd" width="100%"></a>
 *Sheep grazing on a windward slope where the snow is shallow and dry grass still shows.*
 
 The herd is the same size as in summer, with twelve sheep, six cattle, three horses and a goat, but they are placed differently. Most of the sheep graze on the windward slopes, where the wind has scoured the snow thin and the grass is reachable. The cattle stay on the flatter ground. Every animal leaves tracks in the snow as it moves, so the player can follow where the herd has been. As in summer, the animals act as a clue, but the clue is now more complicated. Where the sheep graze, there is food, but that is also where the wind is strongest, so it is not automatically a good place for the yurt.
@@ -31,10 +31,10 @@ The danger behind this chapter is the Mongolian winter disaster known as dzud. R
 
 ## Camp placement
 
-<a name="bad report"><img src="images/week17_04_bad_report.jpg" alt="bad report" width="100%"></a>
+<a name="bad report"><img src="images/1704badreport.jpg" alt="bad report" width="100%"></a>
 *A camp on a steep, exposed slope near a drift. It scores 11 out of 100: too steep, open to the wind, far from open water, with the grazing buried.*
 
-<a name="good report"><img src="images/week17_05_good_report.jpg" alt="good report" width="100%"></a>
+<a name="good report"><img src="images/1705goodreport.jpg" alt="good report" width="100%"></a>
 *The best area in the level, on flat ground east of the river. With the windy yurt, it scores 83. Even here, the grazing row still shows a cross.*
 
 Winter uses its own set of rules in the settle tool, and the site report changes its five rows to match: access to open water, ground slope, shelter from wind, snow depth and accessible grazing. Shelter has the largest share of the score, followed by open water, snow depth, accessible grazing, flat ground and avoiding cold hollows where cold air settles. On top of this, there are hard limits. If the snow is deeper than about forty-five centimetres, the yurt would be buried and the score cannot go above 40. If the site is fully open to the wind, it cannot go above 50. If there is no open water within about ninety metres of walking, it cannot go above 45. If the ground is too steep or the camp is on the thin ice edge, it cannot go above 30. The report names the most important problem directly, for example "deep drift buries the yurt" or "full force of the winter wind".

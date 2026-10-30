@@ -8,13 +8,13 @@ I adjusted the grass height and coverage to make the field feel more like a mead
 
 I also worked on the river with the URP Water asset. I tried different water textures and added a spring skybox, then checked whether the water surface responded to the sky. Seeing the sky reflected in the river helped connect the water to the rest of the scene. It also gave me a way to judge whether the river felt like part of the landscape, rather than a flat strip placed across it.
 
-![Spring grassland with the skybox and river](images/week08_skybox_water_landscape.png)
+![Spring grassland with the skybox and river](images/08skyboxwaterlandscape.png)
 
 *The river sits among the grass, flowers and gers.*
 
 I compared the water material from a closer view beside the river. Here I was checking the surface texture, its pale blue colour and how the bright sky appeared on the water. The grass along the bank helped me judge whether the edge felt connected to the ground. The main purpose of this test was to make the river look more natural within the meadow.
 
-![Water material test along the grassy riverbank](images/week08_water_material_test.png)
+![Water material test along the grassy riverbank](images/08watermaterialtest.png)
 
 *Checking the water texture and sky reflection against the grassy bank.*
 
@@ -24,11 +24,11 @@ At first I planned to place the player outside the ger. After reading Nguyen’s
 
 This changed what I wanted to build around the start of the game. Instead of presenting only the open grassland, I wanted the player to first encounter a lived-in ger, with familiar objects that suggest daily routines. The outside view still shows the initial idea, while the open entrance leads into the interior I began arranging.
 
-![The first starting point beside the ger](images/week08_spawn_outside.png)
+![The first starting point beside the ger](images/08spawnoutside.png)
 
 *The first plan placed the player outside the ger.*
 
-![The open ger entrance](images/week08_yurt_entry.png)
+![The open ger entrance](images/08yurtentry.png)
 
 *The open entrance leads into the living space.*
 
@@ -36,13 +36,13 @@ This changed what I wanted to build around the start of the game. Instead of pre
 
 I added four main pieces of furniture: a tea table, an iron stove, a storage chest and a daybed. I placed small items on the table and added a rug and floor cushion to give the interior more signs of use. The table suggests eating and drinking, the stove gives the space a practical centre, and the chest and bed make it feel like somewhere to keep belongings and rest. Together, these objects make the ger read as a home within the larger grassland, rather than only as a landmark outside.
 
-![Ger interior with the tea table, stove, chest and daybed](images/week08_yurt_furniture.png)
+![Ger interior with the tea table, stove, chest and daybed](images/08yurtfurniture.png)
 
 *The furniture gives the ger a sense of everyday use.*
 
 From the player's view, the table and stove sit within the same small space as the doorway to the grassland. Seeing the open field from beside the household objects helps connect the interior to the wider world outside.
 
-![Player view from inside the furnished ger](images/week08_ger_gameplay_view.png)
+![Player view from inside the furnished ger](images/08gergameplayview.png)
 
 *The table and stove frame the grassland beyond the entrance.*
 
@@ -50,7 +50,7 @@ From the player's view, the table and stove sit within the same small space as t
 
 I tested how light entered through the gaps around the ger’s roof crown. The opening brings a small view of the sky into the interior and gives the roof structure a clear focal point. I also adjusted the shadows cast by the objects. This helped the furniture sit more naturally in the space and made the light and darker areas easier to read together.
 
-![Light passing through the roof crown](images/week08_roof_light.png)
+![Light passing through the roof crown](images/08rooflight.png)
 
 *The roof opening brings light into the ger.*
 

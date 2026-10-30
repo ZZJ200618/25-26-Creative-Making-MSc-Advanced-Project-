@@ -2,7 +2,7 @@
 
 After the rain and flood-balancing problem in [Week 15](week15.md), I focused on the autumn chapter, `Windynormal`, and how its weather changes the way the player reads the grassland. I wanted autumn to be more than a warmer colour filter. Wind now links three parts of the experience: it moves the grass, changes where the sheep gather, and affects the player's choice of a campsite.
 
-<a name="autumn overview"><img src="images/week16_01_autumn_overview.png" alt="Autumn overview" width="100%"></a>
+<a name="autumn overview"><img src="images/1601autumnoverview.png" alt="Autumn overview" width="100%"></a>
 *The autumn field around the camp, with the winding river, grazing animals and distant hills.*
 
 ## Wind that changes the landscape
@@ -34,7 +34,7 @@ I prepared a mixed autumn palette of straw, tawny and yellow-green grass texture
 
 The score reads grass density and height; it does not treat colour as proof that a patch is good forage. That distinction is important because colour is a visual cue for the player, while the score uses the measurable terrain detail values already available in the scene. This connects the autumn appearance to the existing grass criterion without turning a seasonal tint into a false ecological measurement.
 
-<a name="sheep in autumn grass"><img src="images/week16_02_sheep_in_autumn_grass.png" alt="Sheep in autumn grass" width="100%"></a>
+<a name="sheep in autumn grass"><img src="images/1602sheepinautumngrass.png" alt="Sheep in autumn grass" width="100%"></a>
 *Sheep grazing among the taller autumn grass, with lower ground and a small stretch of water visible beyond them.*
 
 ## The herd responds to stronger gusts

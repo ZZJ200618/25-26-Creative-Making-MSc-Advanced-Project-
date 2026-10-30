@@ -4,22 +4,22 @@ This week I focused on one moment in the game: the first conversation with Bataa
 
 ## Designing the dialogue UI
 
-![Dialogue UI source files](images/week10_dialogue_ui_sources.png)
+![Dialogue UI source files](images/10dialogueuisources.png)
 *The three source images for the dialogue UI: the subtitle bar, the continue arrow and the talk icon.*
 
 The dialogue UI is built from three small pieces that I drew myself and imported into Unity. The talk icon is a rounded square with corner brackets and a speech bubble. It appears over Bataa when the player is close enough to speak to him, so the player can see at a glance that this character can be interacted with. 
 
-![Frosted glass UI reference](images/week10_ref_frosted_glass_ui.png)
+![Frosted glass UI reference](images/10reffrostedglassui.png)
 *Visual reference: a frosted-glass game settings screen found online, which set the look of my panels.*
 
 The visual style of the panels came from this frosted-glass interface reference. What I liked about it is that the panel blurs the scene behind it instead of covering it with a solid colour, so the game world still shows through as soft light and colour. Thin light outlines, large rounded corners and plain white sans-serif text give it a calm, clean look without any decoration. I applied the same idea to the subtitle bar and the talk icon: a translucent, blurred background, rounded edges, a thin outline and white text only, with the selected state shown by a slightly brighter pill shape rather than a different colour. In a game that is mostly open landscape, this lets the UI feel like a layer of glass in front of the grassland rather than a box placed on top of it.
 
 Before designing, I looked at how other games handle speech. Half-Life: Alyx keeps nearly everything in the world and uses only small, quiet prompts, which matters in VR, where a large panel blocks the view the player is standing in. Red Dead Redemption 2 uses short subtitles placed low on the screen and a context prompt close to the character, so the player's attention stays on the person speaking. The Long Dark uses plain white text over a soft dark band that stays readable against both snow and bright sky, which is close to my own problem, since the game moves through four seasons with very different backgrounds. From these I took one principle: the world comes first, and the dialogue UI should be small, neutral and only visible when it is needed.
 
-![Meta legibility guidance](images/week10_ref_meta_type_legibility.png)
+![Meta legibility guidance](images/10refmetatypelegibility.png)
 *Meta Horizon OS typography guidance: a generous x-height and open counters make text easier to read in a headset (Meta, 2026a).*
 
-![Meta type size guidance](images/week10_ref_meta_type_sizes.png)
+![Meta type size guidance](images/10refmetatypesizes.png)
 *Meta Horizon OS guidance on minimum type sizes (Meta, 2026a).*
 
 The design decisions also follow VR design guidelines. Meta recommends placing interface elements at a comfortable distance and inside the player's natural field of view, so that reading does not require turning the head or refocusing the eyes (Meta, 2026b). For this reason the subtitle bar sits at a fixed height just below the line of sight, while the talk icon is attached to Bataa's position in the world instead of the screen. Meta's typography guidance explains that headset resolution and lens blur make thin, small or coloured text hard to read, and it recommends a clear sans-serif typeface at a sufficient size with strong contrast (Meta, 2026a). This is why the subtitles are white Inter on a dark band and why I avoided coloured text altogether. Kojić et al. (2020) also found that distance, size and contrast strongly affect how comfortable reading is in VR, which supports keeping each subtitle short, still and high in contrast. Finally, the prompts name the real controller buttons, A and B, so the instruction on screen matches what the player is holding.
@@ -32,15 +32,15 @@ The content of the dialogue does the work of a tutorial. Instead of opening with
 
 ## Lip sync with LipSync Pro and Blender
 
-![LipSync Pro setup](images/week10_lipsync_pro_setup.png)
+![LipSync Pro setup](images/10lipsyncprosetup.png)
 *Setting up LipSync Pro on the guide character in the grassland scene.*
 
 To make Bataa's mouth move with his lines, I used LipSync Pro by Rogo Digital in Unity. LipSync Pro breaks speech into a small set of mouth shapes, called phonemes: AI, E, U, O, MBP and a resting pose (Rogo Digital, n.d.). For each recorded line, I created a lip-sync data file that marks when each phoneme happens, and the component blends between the shapes as the audio plays.
 
-![Bataa in Blender](images/week10_bataa_blender.png)
+![Bataa in Blender](images/10bataablender.png)
 *Bataa's model in Blender, where the mouth shapes were prepared.*
 
-![Bataa head topology](images/week10_bataa_topology.png)
+![Bataa head topology](images/10bataatopology.png)
 *Wireframe of the head. The edge loops around the mouth are what the mouth shapes deform.*
 
 The mouth shapes were prepared in Blender as shape keys on Bataa's head mesh. A shape key only stores how far each vertex moves from the base mesh, so every shape key has to use exactly the same vertices, in the same order, as the original model (Blender Documentation Team, 2025). I therefore kept the topology fixed while sculpting each pose and only moved existing vertices, never adding or removing any. When the model is exported to Unity, the shape keys become blend shapes, and I matched each LipSync Pro phoneme to the blend shape with the same name. Because the lips alone looked stiff, I also added a script that rotates the jaw bone according to how open the current phoneme is, so wide vowels such as AI and O open the mouth further than closed sounds such as MBP.

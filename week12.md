@@ -6,35 +6,35 @@ This week the goal was not to add new scenes but to make sure the game could be 
 
 To check the flow, I played the spring chapter from the first moment to the return to camp and captured each step.
 
-<a name="start"><img src="images/week12_00_start.jpg" alt="start" width="100%"></a>
+<a name="start"><img src="images/1200start.jpg" alt="start" width="100%"></a>
 *The chapter begins inside the yurt, looking out through the open door to the grassland.*
 
 The player starts inside the family yurt. The open door frames the grassland outside, so the first thing the player sees is where they are going, and walking out through it is the first action of the game.
 
-<a name="sheep"><img src="images/week12_01_sheep.jpg" alt="sheep" width="100%"></a>
+<a name="sheep"><img src="images/1201sheep.jpg" alt="sheep" width="100%"></a>
 *The sheep grazing near the camp. A small pet icon floats above the sheep closest to the player.*
 
 Just outside the camp, the herd is grazing. As the player walks among the sheep, a small icon appears above whichever one is closest, inviting the player to reach out and pet it.
 
-<a name="hill"><img src="images/week12_02_hill.jpg" alt="hill" width="100%"></a>
+<a name="hill"><img src="images/1202hill.jpg" alt="hill" width="100%"></a>
 *From the top of the hill, the camp, the river and the herd can be seen together.*
 
 Climbing the hill behind the camp gives the first overview of the land. From here the player can see how the yurts sit beside the river and where the animals gather, which is the kind of observation the settle task later asks them to make.
 
-<a name="river"><img src="images/week12_03_river.jpg" alt="river" width="100%"></a>
+<a name="river"><img src="images/1203river.jpg" alt="river" width="100%"></a>
 *At the river bank. The water reflects the sky, and animals graze on the far side.*
 
 Coming down to the river, the player sees the water close up. This is where they learn that the camp needs to be near water, but not so close that it floods.
 
-<a name="horse"><img src="images/week12_04_horse.jpg" alt="horse" width="100%"></a>
+<a name="horse"><img src="images/1204horse.jpg" alt="horse" width="100%"></a>
 *The saddled horse beside the river, with the ride prompt above the saddle.*
 
-<a name="riding"><img src="images/week12_05_riding.jpg" alt="riding" width="100%"></a>
+<a name="riding"><img src="images/1205riding.jpg" alt="riding" width="100%"></a>
 *Riding in first person. The controller hints in the corners show how to steer, speed up and dismount.*
 
 The saddled horse waits by the river. Walking up to it shows the ride prompt, and pressing the button puts the player in the saddle. Once mounted, the view drops to the rider's eye height behind the horse's neck, and a small set of hints at the bottom of the view shows how to steer, speed up and get off.
 
-<a name="camp"><img src="images/week12_06_camp.jpg" alt="camp" width="100%"></a>
+<a name="camp"><img src="images/1206camp.jpg" alt="camp" width="100%"></a>
 *Riding back into camp, with Bataa waiting between the yurts.*
 
 The loop ends by riding back into camp, where Bataa is waiting between the yurts. From here the player can talk to him again, open the map or move on to choosing a place to settle.
