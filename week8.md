@@ -12,6 +12,12 @@ I also worked on the river with the URP Water asset. I tried different water tex
 
 *The river sits among the grass, flowers and gers.*
 
+I compared the water material from a closer view beside the river. Here I was checking the surface texture, its pale blue colour and how the bright sky appeared on the water. The grass along the bank helped me judge whether the edge felt connected to the ground. The main purpose of this test was to make the river look more natural within the meadow.
+
+![Water material test along the grassy riverbank](images/week08_water_material_test.png)
+
+*Checking the water texture and sky reflection against the grassy bank.*
+
 ## Choosing a starting place
 
 At first I planned to place the player outside the ger. After reading Nguyen’s (2024) discussion of home bases, I started thinking about the spawn point as more than a place where the player appears. The paper describes home bases as places players can dwell, feel familiar and safe, and return to. I took this as a reminder that the first space a player sees can help set the feeling of the whole experience. I began to think of the spawn point as an emotional anchor.
