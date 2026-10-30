@@ -7,6 +7,8 @@ This week focused on one moment: the first conversation with Bataa, the herder w
 ![Dialogue UI source files](images/week10_dialogue_ui_sources.png)
 *Source files from `Assets/UI/`: the subtitle bar (`dialog_bar.png`), the "continue" arrow (`dialog_arrow.png`) and the TALK interaction icon (`talk_full.png`).*
 
+Original source files: [dialog_bar.png](images/week10_src_dialog_bar.png) · [dialog_arrow.png](images/week10_src_dialog_arrow.png) · [talk_full.png](images/week10_src_talk_full.png)
+
 The dialogue UI has three parts:
 
 - **TALK icon** (`talk_full.png`). A rounded square with corner brackets and a speech-bubble glyph. It appears above Bataa when the player is close enough to talk, so the player knows that he can be interacted with.
@@ -20,6 +22,15 @@ The logic is in `GuideGreetingInteraction.cs`, which shows the prompt, steps thr
 - *Half-Life: Alyx* (Valve, 2020) keeps almost all information in the world and uses only small, quiet prompts.
 - *The Long Dark* (Hinterland, 2017) uses plain white subtitles on a soft dark band, which stays readable in both snow and daylight.
 - *Red Dead Redemption 2* (Rockstar, 2018) uses short, low-placed subtitles with a speaker name and a contextual "talk" prompt near the character.
+
+![Half-Life: Alyx](images/week10_ref_half_life_alyx.png)
+*Reference: Half-Life: Alyx (Valve, 2020). Information sits in the world, with minimal on-screen UI.*
+
+![The Long Dark](images/week10_ref_the_long_dark.png)
+*Reference: The Long Dark (Hinterland, 2017). A calm, low-contrast presentation that lets the landscape lead.*
+
+![Red Dead Redemption 2](images/week10_ref_rdr2.png)
+*Reference: Red Dead Redemption 2 (Rockstar, 2018). Short, low subtitles and context prompts near the character.*
 
 My version follows the same idea: the world comes first and the UI stays small, neutral and only appears when it is needed.
 
