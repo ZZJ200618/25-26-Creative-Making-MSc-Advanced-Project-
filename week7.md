@@ -19,7 +19,6 @@ I tested the grass coverage, started extending the playable landscape and began 
 
 ![Initial spring grass coverage and terrain test](images/week07_grass_coverage_initial.png)
 
-*13 October 2026, 10:35 UTC (18:35 China Standard Time): early grass coverage and terrain expansion.*
 
 ## Adding landmarks and life
 
