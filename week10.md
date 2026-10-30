@@ -7,7 +7,7 @@ This week I focused on one moment in the game: the first conversation with Bataa
 ![Dialogue UI source files](images/week10_dialogue_ui_sources.png)
 *The three source images for the dialogue UI: the subtitle bar, the continue arrow and the talk icon.*
 
-The dialogue UI is built from three small pieces that I drew myself and imported into Unity. The talk icon is a rounded square with corner brackets and a speech bubble. It appears over Bataa when the player is close enough to speak to him, so the player can see at a glance that this character can be interacted with. The subtitle bar is a dark strip with soft, faded edges rather than a hard frame, so it sits on top of the landscape without closing it off like a window. The small white arrow at the end of a line tells the player that the line is finished and that they can press A to continue. The panels share the same frosted-glass material as the rest of the game's interface, and all text is set in Inter, so the conversation looks like part of one system rather than a separate screen.
+The dialogue UI is built from three small pieces that I drew myself and imported into Unity. The talk icon is a rounded square with corner brackets and a speech bubble. It appears over Bataa when the player is close enough to speak to him, so the player can see at a glance that this character can be interacted with. 
 
 ![Frosted glass UI reference](images/week10_ref_frosted_glass_ui.png)
 *Visual reference: a frosted-glass game settings screen found online, which set the look of my panels.*
