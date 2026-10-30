@@ -34,6 +34,12 @@ I added four main pieces of furniture: a tea table, an iron stove, a storage che
 
 *The furniture gives the ger a sense of everyday use.*
 
+From the player's view, the table and stove sit within the same small space as the doorway to the grassland. Seeing the open field from beside the household objects helps connect the interior to the wider world outside.
+
+![Player view from inside the furnished ger](images/week08_ger_gameplay_view.png)
+
+*The table and stove frame the grassland beyond the entrance.*
+
 ## Light and shadows
 
 I tested how light entered through the gaps around the ger’s roof crown. The opening brings a small view of the sky into the interior and gives the roof structure a clear focal point. I also adjusted the shadows cast by the objects. This helped the furniture sit more naturally in the space and made the light and darker areas easier to read together.
