@@ -14,9 +14,8 @@ The first editor view shows the Terrain, GrassPhysicsArea and GrassManager in th
 
 ![Live Unity Scene View grass capture](images/week07_unity_sceneview.png)
 
-*Captured from the active FullPhysicsDemo scene in Unity on 30 October 2026.*
 
-At 10:35 UTC on 13 October, I tested the grass coverage, started extending the playable landscape and began adding a river. The recovered process image shows the first field test and the water entering the edge of the scene.
+I tested the grass coverage, started extending the playable landscape and began adding a river. The recovered process image shows the first field test and the water entering the edge of the scene.
 
 ![Initial spring grass coverage and terrain test](images/week07_grass_coverage_initial.png)
 
