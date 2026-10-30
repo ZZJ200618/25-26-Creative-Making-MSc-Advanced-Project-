@@ -11,22 +11,7 @@ This week I designed the first two screens the player sees: the cover, which is 
 
 For the cover, I looked at the main menu of The Witcher 3. What I liked about it is that the menu is not a separate page. It sits on top of a live scene with the main character in it, so the cover already shows the world and the mood of the game. The menu itself is only four short words in a narrow column on the left, and the rest of the screen is given to the image. I wanted the same idea for my game: a live view of the grassland with a herder in it, and a menu that takes up as little space as possible.
 
-### First version
 
-<a name="menu v1"><img src="images/week18_02_menu_v1.jpg" alt="menu v1" width="100%"></a>
-*The first version. The menu sits inside a frosted glass panel, with the working title "HOME" and button hints in the corner.*
-
-The first version used the working title "HOME" and placed the menu inside a tall frosted glass panel on the left, in the same style as the in-game interface. The scene behind it already showed the final idea: a herder seen from behind, standing in the grass and looking out over the river and the grazing animals. Seeing the character from behind invites the player to look where they are looking, so the landscape becomes the subject of the cover. However, the glass panel felt too heavy for a title screen. It looked more like a settings window than a cover, and it blocked a large part of the grassland.
-
-### Removing the panel and changing the title
-
-<a name="menu v2"><img src="images/week18_03_menu_v2.jpg" alt="menu v2" width="100%"></a>
-*The second version. The panel is removed, and the menu sits directly on the scene.*
-
-<a name="menu v3"><img src="images/week18_04_menu_v3.jpg" alt="menu v3" width="100%"></a>
-*The third version, with the new title "Following the Grass".*
-
-In the next version, I removed the panel completely and placed the title and menu directly on the scene, with a soft dark gradient on the left to keep the white text readable against the bright sky. This let the grassland run across the whole screen. I then changed the title from "HOME" to "Following the Grass". The new title describes what nomadic herders actually do: they move through the seasons to wherever the grass is good. It also hints at the structure of the game, where each chapter follows the grass into a new season. The title is set in a thin serif typeface with wide letter spacing on two lines. The serif gives it a calmer, more literary feeling than the sans-serif used in the game's interface, which suits a title rather than a tool.
 
 ### Final cover
 
