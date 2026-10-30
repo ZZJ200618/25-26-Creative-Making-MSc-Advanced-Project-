@@ -12,7 +12,7 @@ I adjusted the grass height and coverage so the field felt less like one even ca
 
 ## Choosing a starting place
 
-At first I planned to place the player outside the ger. Nguyen (2024) describes game home bases as places where players can pause, feel familiar and safe, and return to. I applied that idea to the spawn point: I began to see it as an emotional anchor, so I moved the start inside the ger. This lets the player meet the world through a lived-in space rather than an empty starting area.
+At first I planned to place the player outside the ger. Nguyen (2024) describes game home bases as places where players can pause, feel familiar and safe, and return to. I applied that idea to the spawn point, which I began to see as an emotional anchor. I decided to build the ger interior around it so the player can meet the world through a lived-in space.
 
 ![The first starting point beside the ger](images/week08_spawn_outside.png)
 
@@ -40,7 +40,7 @@ I tested light passing through the gaps around the roof crown. I also adjusted t
 
 ## Reflection
 
-Moving the spawn point inside the ger gave the player a clear first place to belong. The next step is to check the interior at VR eye height and keep tuning the grass, water and shadows for comfort and performance.
+Treating the ger as the player's first place to belong gives the spawn a clearer emotional starting point. The next step is to check the interior at VR eye height and keep tuning the grass, water and shadows for comfort and performance.
 
 ## Reference
 
