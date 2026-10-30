@@ -32,12 +32,24 @@ The logic is in `GuideGreetingInteraction.cs`, which shows the prompt, steps thr
 ![Red Dead Redemption 2](images/week10_ref_rdr2.png)
 *Reference: Red Dead Redemption 2 (Rockstar, 2018). Short, low subtitles and context prompts near the character.*
 
+![RDR2 Steam screenshot](images/week10_ref_web_rdr2.jpg)
+*Red Dead Redemption 2, official Steam store screenshot (Rockstar Games, 2019). Conversations are framed close on the character, so the face carries the scene.*
+
+![The Long Dark Steam screenshot](images/week10_ref_web_longdark.jpg)
+*The Long Dark, official Steam store screenshot (Hinterland Studio, 2017). Story characters are met face to face, with the UI kept out of the frame.*
+
 My version follows the same idea: the world comes first and the UI stays small, neutral and only appears when it is needed.
 
 **Why it looks like this: VR guidelines**
 
 - *Placement and comfort.* Meta advises placing UI at a comfortable distance (around 1–3 m) and within a comfortable field of view, so the player does not need to turn their head or refocus to read it (Meta, 2026b). The subtitle bar sits at a fixed position below the line of sight, and the TALK icon is attached to Bataa's position in the world rather than to the screen.
 - *Legibility.* Meta's typography guidance recommends a clear sans-serif font, a large enough size and high contrast, because headset resolution and lens blur make thin or coloured text hard to read (Meta, 2026a). This is why the text is white Inter on a dark band, with no coloured text.
+![Meta legibility guidance](images/week10_ref_meta_type_legibility.png)
+*Meta Horizon OS typography guidance: x-height and open counters improve legibility in a headset (Meta, 2026a).*
+
+![Meta type size guidance](images/week10_ref_meta_type_sizes.png)
+*Meta Horizon OS typography guidance on type sizes (Meta, 2026a). This is why the subtitle uses a large, regular-weight sans-serif.*
+
 - *Calm presentation.* Kojić et al. (2020) found that how subtitles are positioned in 360° video affects presence and comfort. A subtitle that stays still and readable without searching worked best. A short, single-line subtitle with a soft background follows that finding.
 - *Controller wording.* Prompts use the actual controller buttons (A / B) so that the instruction matches what the hands are holding.
 
