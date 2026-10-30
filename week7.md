@@ -26,7 +26,6 @@ I added flowers as visual points of interest so that the player would have reaso
 
 ![River, flower patches, livestock and first ger](images/week07_river_animals_ger.png)
 
-*13 October 2026, 10:39 UTC (18:39 China Standard Time): the river, flower patches, animals and first ger bring scale and activity to the landscape.*
 
 ## Testing coverage and terrain shape
 
