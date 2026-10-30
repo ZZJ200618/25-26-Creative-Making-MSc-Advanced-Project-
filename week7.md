@@ -45,6 +45,3 @@ The first play-mode start view brought the main elements together: river, grass,
 
 The early tests showed that grass coverage changes the whole feeling of the landscape. Dense mesh grass makes the meadow read as continuous, while open patches give room for routes and landmarks. The flowers, river and gers began to break up the broad green surface and suggest places to explore. The next pass should refine grass transitions and river banks, then measure the cost of the chosen density on the VR target hardware.
 
-## Asset note
-
-The Unity Asset Store currently lists Grass Physics Asset as a paid package (US$22 when checked on 30 October 2026), so I have kept it separate from the free public flower, livestock and environment models noted above. The ger, character and furniture are custom project assets.
