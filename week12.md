@@ -4,20 +4,17 @@ This week the goal was not to add new scenes but to make sure the game could be 
 
 ## Talking to the guide and petting the sheep
 
-![Sheep interaction](images/week12_sheep_interaction.jpg)
+<a name="sheep"><img src="images/week12_sheep_interaction.jpg" alt="Sheep interaction" width="100%"></a>
 *An early test of the animal interaction near the camp. The white ring marks which animal is currently the target.*
 
 Both of these interactions are deliberately simple scripts. The conversation with Bataa is triggered by distance. When the player walks close enough, a talk prompt appears above him, and pressing the interact button starts the conversation. While he is talking, the other interactions are paused so that one button press cannot trigger two things at once. Petting works in a similar way. The game finds the sheep nearest to the player and shows a small prompt above it. When the player holds the button, that sheep stops wandering, its neck and head sway slowly as if it is being stroked, and it bleats every few seconds. When the player lets go, it goes back to grazing. There is no complex physics here: a stroke is suggested by a small animation layered on top of the sheep's normal idle, and the sound does most of the work.
-
-![Pet prompt prototype](images/week12_pet_prompt_prototype.jpg)
-*The first version of the pet prompt was a large word placed on the ground. It was too heavy, so I replaced it with a small floating icon above the nearest sheep.*
 
 I kept these interactions simple on purpose. They are not challenges but moments of contact with the herd, and they exist to make the animals feel like living things the player is responsible for, rather than scenery. A more complicated system would have taken time away from making the main flow reliable.
 
 ## Riding the horse
 
-![Ride prompt](images/week12_horse_ride_prompt.jpg)
-*The ride prompt above the saddled horse in the winter camp.*
+<a name="horse"><img src="images/week12_spring_horse.jpg" alt="Saddled horse" width="100%"></a>
+*The saddled horse waiting near the camp in the spring grassland.*
 
 For the horse, I did not build the animation system myself. I used Horse Animset Pro by Malbers Animations, an asset from the Unity Asset Store that includes a rigged horse, a full set of walking, trotting, galloping and turning animations, and a controller that blends between them from simple forward and turn values (Malbers Animations, 2016). Riding is a feature that needs dozens of animations and careful blending to look believable, and using an existing asset let me spend my time on how the player gets on the horse and controls it, rather than on animating a horse from scratch. I wrote my own interaction script on top of it. When the player is close to the horse, a ride prompt appears over the saddle. Pressing the button places the player on the saddle, swaps the horse to its riding animator and hands the movement input to the horse instead of the player's body. Pressing the same button again brings the player back down to the ground.
 
@@ -35,8 +32,8 @@ The original rider from the horse asset also did not fit the game. It was a west
 
 ## Current progress
 
-![Four seasons](images/week12_four_seasons.jpg)
-*The four seasonal chapters: spring, summer, a rainy chapter and winter.*
+<a name="camp"><img src="images/week12_spring_camp.jpg" alt="Spring camp" width="100%"></a>
+*The spring camp by the river, where the full flow was tested.*
 
 At this point the full flow of the game works from beginning to end. The main menu leads into a difficulty select, and each difficulty opens one seasonal chapter with its own terrain, weather and herd. In each chapter, the player can meet and talk to the guide, pet the sheep, ride the horse across the grassland, open the map to mark what they have seen, and use the guide pages to judge the land before choosing where to settle. The settle system then scores the chosen spot on water, slope, wind, drainage and grass, and gives the player a result. All of these steps run on both the PC and the VR versions. What remains is mostly polish: tuning the difficulty of each season, improving the lip sync and some of the animations, and testing with other players to see whether the guidance is clear without my help.
 
