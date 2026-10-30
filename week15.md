@@ -1,5 +1,5 @@
 # Week 15 — The Summer Chapter
-Grass and water are plentiful; keep the camp off ground that floods." So in this chapter, the problem is not a lack of water. The problem is too much of it. The player has to find dry, safe ground in a landscape where rain collects in every low place.
+Grass and water are plentiful; keep the camp off ground that floods." The problem is too much of it. The player has to find dry, safe ground in a landscape where rain collects in every low place.
 
 <a name="easy card"><img src="images/week15_00_easy_card.jpg" alt="easy card" width="100%"></a>
 *The difficulty screen for the summer chapter. The short description tells the player what this season is about before they enter it.*
