@@ -16,9 +16,9 @@ For the cover, I looked at the main menu of The Witcher 3. What I liked about it
 ### Final cover
 
 <a name="menu final"><img src="images/week18_05_menu_final.jpg" alt="menu final" width="100%"></a>
-*The final cover. The title is larger, and the three options sit in a short column below it, with only the selected option highlighted by a thin outline.*
 
-In the final version, the title is larger and placed higher, and the menu is reduced to three options: Start Game, Select Chapter and Exit. Only the selected option has a thin outline and a small marker, and the others are plain text. There are no colours other than white, and nothing moves except the grass, the clouds and the animals in the scene. The menu stays on the left third of the screen, and the herder stands on the right third, so the eye moves from the title across the grassland to the figure. In VR, the same layout appears as a panel in front of the player, so they see the cover as a place they are standing in rather than a flat picture. Fagerholt and Lorentzon (2009) describe how interfaces that are placed into the game world, instead of on top of it, can support immersion. The cover follows this idea in a simple way, because the menu is a light layer over a real scene from the first chapter.
+
+
 
 ## The level select screen
 
