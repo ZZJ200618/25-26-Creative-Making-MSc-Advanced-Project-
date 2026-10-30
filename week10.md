@@ -9,15 +9,6 @@ This week I focused on one moment in the game: the first conversation with Bataa
 
 The dialogue UI is built from three small pieces that I drew myself and imported into Unity. The talk icon is a rounded square with corner brackets and a speech bubble. It appears over Bataa when the player is close enough to speak to him, so the player can see at a glance that this character can be interacted with. The subtitle bar is a dark strip with soft, faded edges rather than a hard frame, so it sits on top of the landscape without closing it off like a window. The small white arrow at the end of a line tells the player that the line is finished and that they can press A to continue. The panels share the same frosted-glass material as the rest of the game's interface, and all text is set in Inter, so the conversation looks like part of one system rather than a separate screen.
 
-![Half-Life: Alyx](images/week10_ref_half_life_alyx.png)
-*Half-Life: Alyx (Valve, 2020). Information is kept in the world, and on-screen UI is minimal.*
-
-![Red Dead Redemption 2](images/week10_ref_web_rdr2.jpg)
-*Red Dead Redemption 2, official Steam store screenshot (Rockstar Games, 2019). Conversations are framed close on the character, so the face carries the scene.*
-
-![The Long Dark](images/week10_ref_web_longdark.jpg)
-*The Long Dark, official Steam store screenshot (Hinterland Studio, 2017). Story characters are met face to face, and the UI stays out of the frame.*
-
 Before designing, I looked at how other games handle speech. Half-Life: Alyx keeps nearly everything in the world and uses only small, quiet prompts, which matters in VR, where a large panel blocks the view the player is standing in. Red Dead Redemption 2 uses short subtitles placed low on the screen and a context prompt close to the character, so the player's attention stays on the person speaking. The Long Dark uses plain white text over a soft dark band that stays readable against both snow and bright sky, which is close to my own problem, since the game moves through four seasons with very different backgrounds. From these I took one principle: the world comes first, and the dialogue UI should be small, neutral and only visible when it is needed.
 
 ![Meta legibility guidance](images/week10_ref_meta_type_legibility.png)
