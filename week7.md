@@ -34,13 +34,12 @@ I compared dense grass with a deliberately sparse lawn to see how much coverage 
 
 ![Meadow coverage test with surrounding slopes and gers](images/week07_meadow_slope_test.png)
 
-*13 October 2026, 11:17 UTC (19:17 China Standard Time): a coverage and terrain review, with surrounding slopes and additional gers.*
+
 
 The first play-mode start view brought the main elements together: river, grass, flowers, livestock and three gers. This helped me check how the scene reads from a player's starting position rather than only from the editor.
 
 ![First playable start view of the spring grassland](images/week07_start_view_play.png)
 
-*13 October 2026, 11:43 UTC (19:43 China Standard Time): first start-view composition in play mode.*
 
 ## Reflection
 
