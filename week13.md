@@ -1,6 +1,6 @@
 # Week 13 — UI Design Across the Game
 
-This week I brought all of the game's interface together and checked it as one system. Earlier I had designed pieces separately, such as the dialogue panel and the map, but now every screen the player meets in a chapter has been finished: the three main buttons, the map, the guide, the settle tool with its yurt icons, and the interface for riding. All of them use the same frosted-glass panels, white Inter text, thin outlines and rounded corners, so that moving from one to another feels like using one tool rather than several.
+This week I brought all of the game's interface together and checked it as one system. Earlier I had designed pieces separately, such as the dialogue panel and the map, but now every screen the player meets in a chapter has been finished: the three main buttons, the map, the guide, the settle tool with its yurt icons, and the interface for riding. 
 
 ## Three buttons: Map, Settle and Guide
 
