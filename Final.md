@@ -1,40 +1,109 @@
-# Final Outcome
+# Following the Grass
 
-## Project Links
+**Choosing a seasonal camp on the Mongolian grassland** · Jiayue Tao · VR and PC
 
-- Game build:
-- Walkthrough video:
-- Project presentation:
+![Final game cover](images/1805menufinal.jpg)
 
-## Introduction
+| Game build | Walkthrough video | Presentation |
+|---|---|---|
+| | | |
 
-Following the Grass is a virtual reality game about how Mongolian herding families choose seasonal camps. The idea began during my visit to Mongolia. I could see the same open grassland as the people I spoke with, but I read it mainly as scenery. They described looking at the weather, pasture and water before deciding where to take their animals. I wanted to make that difference in perspective something a player could explore.
+## Why move camp?
 
-My research question was: how can an embodied game help people with little experience of herding understand the environmental conditions involved in choosing a camp? The project does not try to teach one universal answer. It asks players to observe several clues, compare places and explain the trade-offs behind their choice.
+On my visit to Mongolia I could see a river, grass and grazing animals. The herders I spoke with were looking ahead to where their families could move. I wanted players to stand on the same riverbank and have a reason to ask whether it would make a good home.
 
-The game was built in Unity for a VR headset and controllers, with a PC version as an alternative. Players enter the home of a herding family, meet Bataa, explore the grassland on foot and horseback, record observations on a map, and choose a new campsite. A report then explains how the selected location performs against the conditions in that chapter.
+| The river, camps and herd | Reading the pasture from horseback |
+|---|---|
+| ![The river, camps and herd](images/final_thesis_image27.jpeg) | ![Reading the pasture from horseback](images/final_thesis_image33.jpeg) |
 
-## Research and Design Framework
+## Research into play
 
-The design draws on research into Mongolian pastoral mobility, environmental perception, embodied learning and serious games. Seasonal movement is connected to changing pasture, water and weather, but real decisions also depend on family labour, land use and community relationships. Those wider conditions are beyond this prototype, so the game focuses on environmental clues that players can see and compare.
+| Research | Design choice | Player action |
+|---|---|---|
+| Ono and Ishikawa (2020), Michler et al. (2022) describe how pasture and water shape camp selection. | Give each site advantages and drawbacks. | Compare a convenient riverbank with drier ground. |
+| Kolb (1984) and Johnson-Glenberg (2018) connect action with learning. | Show feedback after the decision. | Observe, mark a site, commit and review. |
+| UNESCO (2013) and Tsovoodavaa et al. (2018) document ger construction. | Make the portable home the starting point. | Walk out of the dwelling you will later relocate. |
 
-I organised the experience around a learning cycle: observe the environment, interpret and record what was seen, decide where to camp, and reflect on the result. A short orientation inside the ger prepares players for the task. Walking and riding provide different viewpoints; map markers make separate observations easier to compare; the campsite report connects the final choice back to grass, water, terrain and weather. This structure is informed by Kolb's experiential learning cycle and research on embodied VR learning (Kolb, 1984; Johnson-Glenberg, 2018).
+| Observation and decision cycle | Interior of the portable home |
+|---|---|
+| ![Observation and decision cycle](images/final_thesis_image2.png) | ![Interior of the portable home](images/final_thesis_image8.png) |
 
-The environmental relationships are grounded in literature, while the score weights, thresholds and animal responses are design decisions for this prototype. The report is a way to compare locations inside the game, not a universal formula for real Mongolian camps.
+## Building the ger
 
-## Design and Development
+I modelled the circular wall, roof, central opening and door separately in Blender. I checked the roof poles from above and rotated the wall to align the blue band with the door frame. Four variations make each shelter recognisable during selection.
 
-### Four weather chapters
+| Standard ger | Wind ropes | Rain cover | Winter covering |
+|---|---|---|---|
+| ![Standard ger](images/final_thesis_image3.png) | ![Wind ropes](images/final_thesis_image4.png) | ![Rain cover](images/final_thesis_image5.png) | ![Winter covering](images/final_thesis_image6.png) |
 
-The same grassland changes through four chapters. Spring introduces the basic route and camp choice. In summer, rain makes low ground and drainage more important. Autumn uses strong wind, tall grass and sheltered slopes to change how players read the land. In winter, snow covers much of the pasture and most of the river is frozen, so players have to look for exposed grass and the few open-water sections.
+I moved the spring starting point indoors. Furniture follows the curved wall, leaving a clear path to the door. I adjusted the furniture shadows under the light entering through the roof.
 
-The player can walk close to grass, animals and riverbanks, then ride to see a wider area. Bataa gives a reason to begin the patrol and introduces the next task. Sheep, cattle and horses help make the environment feel lived in. Their positions can suggest a place worth checking, but they do not provide a guaranteed answer to the campsite decision.
+| Furniture placement | Roof light |
+|---|---|
+| ![Furniture placement](images/08yurtfurniture.png) | ![Roof light](images/08rooflight.png) |
 
-### Ger design and the scoring table
+## Making Bataa speak
 
-In Blender, I modelled a circular wall, roof structure, central roof opening, felt covering and wooden door. The four ger types share the same basic outline. Their outer details communicate different priorities: a raised central crown and blue decoration for the standard ger; a darker cover over the roof opening for rain; visible tie-down ropes for wind; and a thicker felt envelope for cold weather. Traditional ger structure and craft references informed the common form, while the four specialised game types are my own readable design simplification (UNESCO, 2013; Tsovoodavaa et al., 2018).
+I wrote short prompts around what players can see. At the river, Bataa asks them to consider more than the distance to water. I aligned facial topology in Blender with the Unity lip-sync setup and tested the speaking and pointing animations. The closed mouth texture leaves little detail visible when the lips part.
 
-The appearance connects to the base scoring weights shown below. A visible feature helps players recognise what a ger type is designed to handle, while the table makes its effect on the campsite report explicit.
+| Character design | Facial topology and lip sync | Pointing animation |
+|---|---|---|
+| ![Character design](images/final_thesis_image11.png) | ![Facial topology and lip sync](images/final_thesis_image12.jpeg) | ![Pointing animation](images/final_thesis_image16.png) |
+
+## Constructing the pasture
+
+I used free assets for the environment and livestock alongside my ger, furniture and character models. GrassPhysics mesh patches let me cover the terrain with moving grass. I adjusted height and coverage independently, enlarged the map and shaped the river channel. With the skybox in place, I tuned the URP water material so the river reflected the sky.
+
+| Grass setup | River material | Three candidate sites |
+|---|---|---|
+| ![Grass setup](images/07grassphysicssetup.png) | ![River material](images/08watermaterialtest.png) | ![Three candidate sites](images/09riverandthreesites.png) |
+
+| Short grass at fixed density | Tall grass at the same density |
+|---|---|
+| ![Short grass at fixed density](images/final_thesis_image19.png) | ![Tall grass at the same density](images/final_thesis_image20.png) |
+
+## From the doorway to a new camp
+
+| Step | Action | What it reveals |
+|---|---|---|
+| 1 | Leave the ger and meet Bataa. | The family needs a new home. |
+| 2 | Follow the flock to the river. | Water and grazing coincide here. |
+| 3 | Climb the ridge and ride between sites. | The higher viewpoint reveals the route back to water. |
+| 4 | Mark places on the map and consult the field guide. | The player can compare observations made far apart. |
+| 5 | Select a site and ger, then read the report. | The choice has consequences for shelter, drainage and access. |
+
+| Meeting the guide | Approaching the flock | Riding |
+|---|---|---|
+| ![Meeting the guide](images/09guidemeeting.png) | ![Approaching the flock](images/final_thesis_image28.jpeg) | ![Riding](images/1205riding.jpg) |
+
+## Interface and sound
+
+I kept dialogue panels translucent so the landscape stays visible behind the subtitles. Map pins record where an observation was made. The field guide explains what to look for. At settlement, roof outlines help players recognise the four ger types from above.
+
+| Map markers | Field guide | Ger selection icons |
+|---|---|---|
+| ![Map markers](images/final_thesis_image34.png) | ![Field guide](images/final_thesis_image35.png) | ![Ger selection icons](images/final_thesis_image39.png) |
+
+I built the soundscape around three listening positions. Wind and grass become clearer on leaving the ger. The river grows louder on approach, giving players a sense of distance even while they look towards the herd.
+
+| Doorway | Meadow | Riverbank |
+|---|---|---|
+| ![Doorway](images/11gerthreshold.png) | ![Meadow](images/11meadow.png) | ![Riverbank](images/11riverbank.png) |
+
+I developed the cover through several menu layouts. The chapter selector previews the weather before players enter the grassland.
+
+| Early menu | Revised layout | Season selection |
+|---|---|---|
+| ![Early menu](images/1802menuv1.jpg) | ![Revised layout](images/1804menuv3.jpg) | ![Season selection](images/1808difficultyseasons.jpg) |
+
+## Turning terrain into a campsite score
+
+The evaluator samples the selected point on Unity Terrain. Height and density each contribute half the grass value. This lets a dense patch of short grass score differently from equally dense tall grass.
+
+```csharp
+float cGrass = 0.5f * Ramp(grassDensity, 5f, 14f)
+             + 0.5f * Ramp(grassHeight, 0.12f, 0.50f);
+```
 
 | Ger type | Water | Flat ground | Dryness | Wind shelter | Grass |
 |---|---:|---:|---:|---:|---:|
@@ -43,25 +112,25 @@ The appearance connects to the base scoring weights shown below. A visible featu
 | Rain-resistant | 15% | 25% | 40% | 5% | 15% |
 | Cold / insulated | 30% | 15% | 15% | 15% | 25% |
 
-The rain-resistant type gives the largest base weight to dry ground; its roof covering cannot prevent a low campsite from collecting water. The wind-resistant type gives the largest weight to shelter, while the cold type places more weight on water and grass. These weights help players see that a shelter can reduce one risk but cannot make every location suitable. Seasonal rules add further checks, so the table is the starting profile rather than the whole scoring system.
+These are my base weights for the game. Summer blends 40% of the house score with 60% seasonal factors, including flood risk and herd distance. Autumn emphasises shelter and the route to water. Winter uses a separate formula for accessible resources. [Scoring code and calibration](week14.md)
 
-### Home, interface and feedback
+| Summer site comparison | Hollow and raised ground |
+|---|---|
+| ![Summer site comparison](images/final_thesis_image47.png) | ![Hollow and raised ground](images/final_thesis_image48.jpeg) |
 
-The spring chapter begins inside the ger. Furniture suggests eating, heating, storage and rest, and the open doorway frames the first view of the grassland. This makes the home a place the player can leave and later return to before choosing a new camp.
+## Four seasons, four decisions
 
-The map lets players mark places they want to compare. A field guide summarises what to look for in water, ground, grass and animals. After a site is submitted, the report shows the overall score and explains strengths and risks in plain language. Bataa's dialogue introduces the route and tasks; subtitles and translucent panels keep instructions readable while leaving the landscape visible. Spatial sounds, including the river and nearby animals, help players locate parts of the scene before they see them clearly.
+| Spring | Summer rain | Autumn wind | Winter snow |
+|---|---|---|---|
+| Use the river and herd to learn the route. | Tall grass hides hollows. Inspect the ground for drainage. | Compare an exposed ridge with a sheltered route to water. | Trace the frozen channel to open water and check the remaining grazing. |
 
-### Seasonal campsite scoring
+| Spring ridge | Summer basin | Autumn pasture | Winter open water |
+|---|---|---|---|
+| ![Spring ridge](images/09hillview.png) | ![Summer basin](images/1503lakeherd.jpg) | ![Autumn pasture](images/final_thesis_image43.png) | ![Winter open water](images/final_thesis_image45.jpeg) |
 
-The score combines terrain, vegetation, water access and seasonal conditions. In summer, the report checks drainage because a low hollow can flood even when it looks grassy and convenient. In autumn, wind shelter and the route to water become more important. In winter, the system checks accessible open water and visible grass rather than treating the frozen river as usable water. I set the percentages and thresholds to make these comparisons legible in play; they are not measurements of every herding family's priorities.
+## Testing the prototype
 
-## User Testing
-
-The first test round involved five people. The original plan was to recruit eight to ten. Participants tried the prototype with a headset and controllers, and the test focused on whether they understood the relocation task, what they noticed during exploration, and how they chose a campsite.
-
-Three of the five participants understood that they were choosing a place for the family to move to. One did not understand the goal, and one record did not contain enough information to decide. Three participants reported dizziness or discomfort, two found the site choice difficult, and two described the repeated journey as monotonous. These reports overlap, so they do not add up to five separate outcomes. They point to different issues: task explanation, comparing environmental clues, route pacing and VR comfort.
-
-This is a small first-round test. It does not show that the game has already changed players' knowledge or cross-cultural understanding. It shows where the current prototype needs clearer evidence and more comfortable testing. Future sessions should record each player's route and reasoning, ask for a campsite explanation before showing the score, and test whether players can apply what they noticed to an unfamiliar location.
+Five people tried the prototype. Three understood the relocation task, one missed it and one record was inconclusive. Three reported discomfort, two struggled to choose a site and two found the return journey repetitive. Participants could report several difficulties.
 
 ### Headset sessions
 
@@ -101,13 +170,33 @@ This is a small first-round test. It does not show that the game has already cha
 </tr>
 </table>
 
-## Reflection and Future Work
+## Next iteration
 
-The project brings environmental observation and campsite choice into one playable sequence. The player can see the river from the slope, walk down to inspect the bank, record a location, and later compare that experience with the score report. The four chapters reuse familiar actions while changing which environmental risks matter most.
+Shorten the repeated journey and offer more comfortable movement. Ask players to explain their choice before revealing the score, then see how they judge a site on an unfamiliar map. Review the seasonal cues with herders who can identify local conditions missing from the prototype.
 
-The first tests also showed why one score cannot explain a player's reasoning by itself. Two people may choose a low site for different reasons: one may not notice the risk of water collecting there, while another may notice it but value convenient access to water more. The next version should ask players what they saw and why they chose a site before revealing the report. I also need to make the return journey less repetitive and offer movement options that reduce discomfort.
+<details><summary>Weekly production notes</summary>
 
-The prototype simplifies regional and household differences. A future review with people who have local herding experience could identify missing environmental or social conditions and check whether the visual cues are fair. Further tests should use an unfamiliar map and ask players to explain a new choice, rather than treating a high score or a completed route as proof of learning.
+- [Week 01 — Initial Research and Reflection](week1.md)
+- [Week 02 — Choosing a Direction](week2.md)
+- [Week 03 — Research and Early Game Direction](week3.md)
+- [Week 04 — Researching a Living Pasture](week4.md)
+- [Week 05 — Four Seasons, One Decision](week5.md)
+- [Week 06 — Modeling](week6.md)
+- [Week 07 — Spring Grassland Blockout](week7.md)
+- [Week 08 — Landscape Tuning and Ger Interior](week8.md)
+- [Week 09 — Establishing the Grassland and Player Route](week9.md)
+- [Week 10 — Dialogue UI, Subtitles and Lip Sync](week10.md)
+- [Week 11 — Designing the Grassland Soundscape](week11.md)
+- [Week 12 — Making the Whole Flow Work](week12.md)
+- [Week 13 — UI Design Across the Game](week13.md)
+- [Week 14 — The Campsite Score: Making the Core Decision Work](week14.md)
+- [Week 15 — The Summer Chapter](week15.md)
+- [Week 16 — Wind, Grass and Choosing an Autumn Camp](week16.md)
+- [Week 17 — The Winter Chapter](week17.md)
+- [Week 18 — Cover and Level Select Design](week18.md)
+- [Week 19 — Four Seasons, Four Sets of Rules](week19.md)
+
+</details>
 
 ## References
 
