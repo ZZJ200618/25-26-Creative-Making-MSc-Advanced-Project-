@@ -4,7 +4,7 @@
 
 ![Final game cover](images/1805menufinal.jpg)
 
-## Table of Contents
+## 📌 Table of Contents
 
 - **YouTube walkthrough** <!-- Add the YouTube URL here -->
 - **Playable game build** <!-- Add the game download URL here -->
