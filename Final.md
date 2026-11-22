@@ -121,27 +121,47 @@ Open Settle, mark your chosen campsite and select a ger type. Read the site repo
 
 ### Spring · Warm grassland
 
-I placed the herd near the river and used patches of short grass to break up the taller meadow. From the ridge, players can see the bends in the river and compare three possible camps. Spring gives them time to walk down and check what the view from above leaves out: how level the bank feels underfoot and how far the animals would have to travel to drink.
+**Tutorial · Choose among three plausible camps**
 
-<p align="center"><img src="images/09hillview.png" width="640" alt="The spring pasture from the ridge."><br><em>The spring pasture from the ridge.</em></p>
+The river is easy to spot from the ridge, and the herd makes the nearest bank an inviting first choice. From that height, though, a level patch and a sloping bank can look equally suitable. Walk down to each candidate, check the ground underfoot and look back towards the grazing animals. The first decision is how much walking to water is worth accepting for a flatter pitch.
+
+<p align="center"><img src="images/09hillview.png" width="600" alt="From the ridge, the river gives the player a route to follow."><br><em>From the ridge, the river gives the player a route to follow.</em></p>
+
+<p align="center"><img src="images/09livestockbyriver.png" width="600" alt="At the bank, the herd brings drinking water and grazing into the same view."><br><em>At the bank, the herd brings drinking water and grazing into the same view.</em></p>
 
 ### Summer · Rain and flooding
 
-Rain and fog shorten the view across the lake basin. Tall grass can make a shallow hollow look much like the rise beside it. Players can follow the herd towards water, then inspect the shape of the ground before marking a camp. A small gain in elevation can keep the ger on drier ground while leaving the lake within reach.
+**Easy · Spot a hollow under tall grass**
 
-<p align="center"><img src="images/1501overview.jpg" width="640" alt="Rain across the summer lake basin."><br><em>Rain across the summer lake basin.</em></p>
+Rain and fog shorten the view across the lake basin. Even at close range, tall grass can hide a dip where water will collect. Follow the animals to locate the lake, then walk across the bank and look for a gentle rise. Moving a little uphill can improve drainage, but moving too far makes the journey to water and the herd longer.
+
+<p align="center"><img src="images/1501overview.jpg" width="600" alt="From above, water collects in the low basin."><br><em>From above, water collects in the low basin.</em></p>
+
+<p align="center"><img src="images/1502grass.jpg" width="600" alt="At walking height, summer grass hides small changes in ground level."><br><em>At walking height, summer grass hides small changes in ground level.</em></p>
+
+<p align="center"><img src="images/1503lakeherd.jpg" width="600" alt="Livestock gather at the lake, giving players a reason to stay within reach of the shore."><br><em>Livestock gather at the lake, giving players a reason to stay within reach of the shore.</em></p>
 
 ### Autumn · Wind and shelter
 
-Gusts pass through the straw-coloured grass. On the open ridge the moving stems make the exposure easy to see. Farther down, the sheep draw attention to patches where they can graze. Players compare the shelter offered by the slope with the journey the herd would make from there to the river.
+**Normal · Find a windbreak with a usable route to water**
 
-<p align="center"><img src="images/1602sheepinautumngrass.png" width="640" alt="Sheep grazing in the tall autumn pasture."><br><em>Sheep grazing in the tall autumn pasture.</em></p>
+The ridge that helped players survey the spring pasture is now exposed to gusts. Watch the grass move, then cross to the sheltered side and trace the route back to the river. A site can offer cover while leaving the herd a long walk around the slope. The sheep indicate where forage is available, so their position is one more clue to check before pitching the ger.
+
+<p align="center"><img src="images/1601autumnoverview.png" width="600" alt="The river bends around the pasture, with higher ground beyond it."><br><em>The river bends around the pasture, with higher ground beyond it.</em></p>
+
+<p align="center"><img src="images/1602sheepinautumngrass.png" width="600" alt="The sheep mark a grazing patch. Players still need to check wind exposure and water access."><br><em>The sheep mark a grazing patch. Players still need to check wind exposure and water access.</em></p>
 
 ### Winter · Snow and frozen water
 
-Most of the river freezes. Players must follow the channel to find open water and check whether the snowy bank is passable. Behind a ridge, shelter from the wind can come with deep drifts. Dry tufts showing through shallower snow help players find a site where animals can still reach both grass and water.
+**Hard · Keep shelter, reachable water and exposed grass within the same camp area**
 
-<p align="center"><img src="images/1702river.jpg" width="640" alt="An open reach in the winter river."><br><em>An open reach in the winter river.</em></p>
+A site beside the frozen channel may still be a long walk from drinking water. Follow the bank until there is an open reach, then check whether the herd can get down to it. Snow gathers in deep drifts behind sheltered ridges, while thinner snow on an exposed slope leaves more grass visible. The player has to compare both sides of the ridge and decide which risks the family can manage.
+
+<p align="center"><img src="images/1702river.jpg" width="600" alt="Only short stretches of river remain open between the ice."><br><em>Only short stretches of river remain open between the ice.</em></p>
+
+<p align="center"><img src="images/1703herd.jpg" width="600" alt="Sheep graze where dry grass shows through shallow snow."><br><em>Sheep graze where dry grass shows through shallow snow.</em></p>
+
+<p align="center"><img src="images/1705goodreport.jpg" width="600" alt="The flat site east of the river scores 83/100 with a wind-resistant ger, although grazing is still poor."><br><em>The flat site east of the river scores 83/100 with a wind-resistant ger, although grazing is still poor.</em></p>
 
 ### Designing grass the player can read
 
