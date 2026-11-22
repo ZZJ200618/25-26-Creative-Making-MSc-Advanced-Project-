@@ -20,6 +20,8 @@
 
 During my visit to Mongolia, I noticed how differently people could read the same grassland. I saw an open view. The herders I spoke to were thinking about where their animals could drink and what pasture would still be available as the weather changed. I chose moving camp as the task because it gives the player a practical reason to look twice at the land.
 
+Ono and Ishikawa found that herders in their Mongolian study area used river valleys for summer and autumn camps, while more sheltered sites at the foot of mountains were important in winter and spring. That observation shaped my four chapters. Players revisit a familiar landscape, but a bend in the river that was worth exploring in spring raises a different question after heavy rain. [Ono and Ishikawa, 2020](https://doi.org/10.3390/land9120496)
+
 ![Ger near Mandalgovi](images/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%872026102915563742439.png)
 
 *Ger near Mandalgovi, Mongolia. Photograph by Fischer (2010), [CC BY-SA 2.0](https://commons.wikimedia.org/wiki/File:Mongolian_Ger.jpg).*
@@ -141,9 +143,25 @@ Most of the river freezes. Players must follow the channel to find open water an
 
 <p align="center"><img src="images/1702river.jpg" width="640" alt="An open reach in the winter river."><br><em>An open reach in the winter river.</em></p>
 
+### Designing grass the player can read
+
+I painted short grass along the spring riverbank, about 6–14 cm high, and used tufts around 80 cm tall in the meadow. In summer, grass around 50–100 cm high can hide a shallow hollow. Autumn grass reaches about 140 cm in places, making gusts easy to follow across the field. In winter, dry grass is roughly 10–50 cm high before snow cover. The tufts still visible above the snow give the player a reason to stop and inspect a patch.
+
+To judge how much of that difference would be visible from the headset, I set up two small test plots with the same camera position. First I kept the number of tufts fixed and changed their height from 14 to 90 cm. Then I kept the height fixed and compared 30 tufts with 180 over the same area. This helped me tune two separate clues: how far the player can see through the grass, and how much ground the plants actually cover.
+
+<p align="center"><img src="images/final_thesis_image19.png" width="300" alt="Grass test at 14 centimetres"> &nbsp; <img src="images/final_thesis_image20.png" width="300" alt="Grass test at 90 centimetres"><br><em>Same tuft count and viewpoint, with only the grass height changed.</em></p>
+
 ## 5. How the campsite score works
 
 When you mark a site, the evaluator samples the terrain around the pin. It checks water access, slope, drainage, wind shelter and grass. Grass height and density each contribute half of the grass value. The selected ger sets the starting weight of each factor.
+
+### Ground slope and drainage
+
+I scored the angle under the ger separately from the shape of the surrounding ground. A site at **2° or less** receives the full flatness score. Between **2° and 6°**, that score falls gradually, reaching zero at **6°**. Above **8°**, the prototype caps the overall site score at **30/100**. I chose these thresholds so players could compare nearby pitches in the game.
+
+A hollow can have an almost level floor and still collect rain. For the summer chapter, the evaluator also compares the height of the marked point with the land around it. That is why the site report has separate rows for slope and drainage, and why walking a few metres uphill can improve a camp even if the two pitches look equally flat.
+
+### Ger type and seasonal weights
 
 | Ger type | Water | Flat ground | Dryness | Wind shelter | Grass |
 |---|---:|---:|---:|---:|---:|
