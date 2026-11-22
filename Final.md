@@ -4,39 +4,23 @@
 
 ![Final game cover](images/1805menufinal.jpg)
 
-| Game build | Walkthrough video | Presentation |
-|---|---|---|
-| | | |
+## Table of Contents
+
+- **YouTube walkthrough** <!-- Add the YouTube URL here -->
+- **Playable game build** <!-- Add the game download URL here -->
+- **Unity project files** <!-- Add the project URL here -->
 
 ---
 
-# 📌 Table of Contents
+## 1. Why I Created This Work
 
-1. [Why I Created This Work](#section-1)
-2. [Technology Used](#section-2)
-3. [Visual Style](#section-3)
-4. [Game Structure & Mechanics](#section-4)
-5. [Narrative](#narrative)
-6. [Terrain → Campsite Score](#section-5)
-7. [Testing](#section-6)
-8. [Core Contribution](#section-7)
-9. [Limitations & Future Improvements](#section-8)
-
----
-
-<a name="section-1"></a>
-
-# 1. Why I Created This Work
-
-## The Core Question
+### The Core Question
 
 **How can someone with little experience of herding learn to judge a campsite by looking, listening and moving through the land?**
 
 On my visit to Mongolia I could see a river, grass and grazing animals. The herders I spoke with were looking ahead to where their families could move. I wanted players to stand on the same riverbank and have a reason to ask whether it would make a good home.
 
-| The river, camps and herd | Reading the pasture from horseback |
-|---|---|
-| ![The river, camps and herd](images/final_thesis_image27.jpeg) | ![Reading the pasture from horseback](images/final_thesis_image33.jpeg) |
+<p align="center"><img src="images/final_thesis_image27.jpeg" alt="The river, camps and herd" width="46%"> &nbsp; <img src="images/final_thesis_image33.jpeg" alt="Reading the pasture from horseback" width="46%"><br><em>The river, camps and herd · Reading the pasture from horseback</em></p>
 
 ### What the literature changed in the game
 
@@ -46,15 +30,11 @@ On my visit to Mongolia I could see a river, grass and grazing animals. The herd
 | Kolb (1984) and Johnson-Glenberg (2018) connect action with learning. | Show feedback after the decision. | Observe, mark a site, commit and review. |
 | UNESCO (2013) and Tsovoodavaa et al. (2018) document ger construction. | Make the portable home the starting point. | Walk out of the dwelling you will later relocate. |
 
-| Observation and decision cycle | Interior of the portable home |
-|---|---|
-| ![Observation and decision cycle](images/final_thesis_image2.png) | ![Interior of the portable home](images/final_thesis_image8.png) |
+<p align="center"><img src="images/final_thesis_image2.png" alt="Observation and decision cycle" width="46%"> &nbsp; <img src="images/final_thesis_image8.png" alt="Interior of the portable home" width="46%"><br><em>Observation and decision cycle · Interior of the portable home</em></p>
 
 ---
 
-<a name="section-2"></a>
-
-# 🛠️ 2. Technology Used
+## 2. Technology Used
 
 | Component | What I built with it |
 |---|---|
@@ -68,9 +48,7 @@ On my visit to Mongolia I could see a river, grass and grazing animals. The herd
 
 ---
 
-<a name="section-3"></a>
-
-# 🎨 3. Visual Style
+## 3. Visual Style
 
 ### Influences
 
@@ -86,41 +64,35 @@ I used photographs of felt, timber doors and roof openings to establish the shar
 
 I modelled the circular wall, roof, central opening and door separately in Blender. I checked the roof poles from above and rotated the wall to align the blue band with the door frame. Four variations make each shelter recognisable during selection.
 
-| Standard ger | Wind ropes | Rain cover | Winter covering |
-|---|---|---|---|
-| ![Standard ger](images/final_thesis_image3.png) | ![Wind ropes](images/final_thesis_image4.png) | ![Rain cover](images/final_thesis_image5.png) | ![Winter covering](images/final_thesis_image6.png) |
+<p align="center"><img src="images/final_thesis_image3.png" alt="Standard ger" width="46%"> &nbsp; <img src="images/final_thesis_image4.png" alt="Wind ropes" width="46%"><br><em>Standard ger · Wind ropes</em></p>
+
+<p align="center"><img src="images/final_thesis_image5.png" alt="Rain cover" width="46%"> &nbsp; <img src="images/final_thesis_image6.png" alt="Winter covering" width="46%"><br><em>Rain cover · Winter covering</em></p>
 
 I moved the spring starting point indoors. Furniture follows the curved wall, leaving a clear path to the door. I adjusted the furniture shadows under the light entering through the roof.
 
-| Furniture placement | Roof light |
-|---|---|
-| ![Furniture placement](images/08yurtfurniture.png) | ![Roof light](images/08rooflight.png) |
+<p align="center"><img src="images/08yurtfurniture.png" alt="Furniture placement" width="46%"> &nbsp; <img src="images/08rooflight.png" alt="Roof light" width="46%"><br><em>Furniture placement · Roof light</em></p>
 
 ### A landscape players can read
 
 I used free assets for the environment and livestock alongside my ger, furniture and character models. GrassPhysics mesh patches let me cover the terrain with moving grass. I adjusted height and coverage independently, enlarged the map and shaped the river channel. With the skybox in place, I tuned the URP water material so the river reflected the sky.
 
-| Grass setup | River material | Three candidate sites |
-|---|---|---|
-| ![Grass setup](images/07grassphysicssetup.png) | ![River material](images/08watermaterialtest.png) | ![Three candidate sites](images/09riverandthreesites.png) |
+<p align="center"><img src="images/07grassphysicssetup.png" alt="Grass setup" width="46%"> &nbsp; <img src="images/08watermaterialtest.png" alt="River material" width="46%"><br><em>Grass setup · River material</em></p>
 
-| Short grass at fixed density | Tall grass at the same density |
-|---|---|
-| ![Short grass at fixed density](images/final_thesis_image19.png) | ![Tall grass at the same density](images/final_thesis_image20.png) |
+<p align="center"><img src="images/09riverandthreesites.png" alt="Three candidate sites" width="74%"><br><em>Three candidate sites</em></p>
+
+<p align="center"><img src="images/final_thesis_image19.png" alt="Short grass at fixed density" width="46%"> &nbsp; <img src="images/final_thesis_image20.png" alt="Tall grass at the same density" width="46%"><br><em>Short grass at fixed density · Tall grass at the same density</em></p>
 
 ### Cover and chapter selection
 
 I developed the cover through several menu layouts. The chapter selector previews the weather before players enter the grassland.
 
-| Early menu | Revised layout | Season selection |
-|---|---|---|
-| ![Early menu](images/1802menuv1.jpg) | ![Revised layout](images/1804menuv3.jpg) | ![Season selection](images/1808difficultyseasons.jpg) |
+<p align="center"><img src="images/1802menuv1.jpg" alt="Early menu" width="46%"> &nbsp; <img src="images/1804menuv3.jpg" alt="Revised layout" width="46%"><br><em>Early menu · Revised layout</em></p>
+
+<p align="center"><img src="images/1808difficultyseasons.jpg" alt="Season selection" width="74%"><br><em>Season selection</em></p>
 
 ---
 
-<a name="section-4"></a>
-
-# 🎮 4. Game Structure & Mechanics
+## 4. Game Structure & Mechanics
 
 ### The playable route
 
@@ -132,13 +104,11 @@ I developed the cover through several menu layouts. The chapter selector preview
 | 4 | Mark places on the map and consult the field guide. | The player can compare observations made far apart. |
 | 5 | Select a site and ger, then read the report. | The choice has consequences for shelter, drainage and access. |
 
-| Meeting the guide | Approaching the flock | Riding |
-|---|---|---|
-| ![Meeting the guide](images/09guidemeeting.png) | ![Approaching the flock](images/final_thesis_image28.jpeg) | ![Riding](images/1205riding.jpg) |
+<p align="center"><img src="images/09guidemeeting.png" alt="Meeting the guide" width="46%"> &nbsp; <img src="images/final_thesis_image28.jpeg" alt="Approaching the flock" width="46%"><br><em>Meeting the guide · Approaching the flock</em></p>
 
-<a name="narrative"></a>
+<p align="center"><img src="images/1205riding.jpg" alt="Riding" width="74%"><br><em>Riding</em></p>
 
-## Narrative
+### Narrative
 
 The family is preparing to move. The player starts inside the spring ger, steps out to meet Bataa and follows him to the animals. By the time the player returns to choose a camp, the home they are moving and the herd that needs pasture are both familiar.
 
@@ -146,25 +116,25 @@ The family is preparing to move. The player starts inside the spring ger, steps 
 
 I wrote short prompts around what players can see. At the river, Bataa asks them to consider more than the distance to water. I aligned facial topology in Blender with the Unity lip-sync setup and tested the speaking and pointing animations. The closed mouth texture leaves little detail visible when the lips part.
 
-| Character design | Facial topology and lip sync | Pointing animation |
-|---|---|---|
-| ![Character design](images/final_thesis_image11.png) | ![Facial topology and lip sync](images/final_thesis_image12.jpeg) | ![Pointing animation](images/final_thesis_image16.png) |
+<p align="center"><img src="images/final_thesis_image11.png" alt="Character design" width="46%"> &nbsp; <img src="images/final_thesis_image12.jpeg" alt="Facial topology and lip sync" width="46%"><br><em>Character design · Facial topology and lip sync</em></p>
+
+<p align="center"><img src="images/final_thesis_image16.png" alt="Pointing animation" width="74%"><br><em>Pointing animation</em></p>
 
 ### Recording observations
 
 I kept dialogue panels translucent so the landscape stays visible behind the subtitles. Map pins record where an observation was made. The field guide explains what to look for. At settlement, roof outlines help players recognise the four ger types from above.
 
-| Map markers | Field guide | Ger selection icons |
-|---|---|---|
-| ![Map markers](images/final_thesis_image34.png) | ![Field guide](images/final_thesis_image35.png) | ![Ger selection icons](images/final_thesis_image39.png) |
+<p align="center"><img src="images/final_thesis_image34.png" alt="Map markers" width="46%"> &nbsp; <img src="images/final_thesis_image35.png" alt="Field guide" width="46%"><br><em>Map markers · Field guide</em></p>
+
+<p align="center"><img src="images/final_thesis_image39.png" alt="Ger selection icons" width="74%"><br><em>Ger selection icons</em></p>
 
 ### Finding places by ear
 
 I built the soundscape around three listening positions. Wind and grass become clearer on leaving the ger. The river grows louder on approach, giving players a sense of distance even while they look towards the herd.
 
-| Doorway | Meadow | Riverbank |
-|---|---|---|
-| ![Doorway](images/11gerthreshold.png) | ![Meadow](images/11meadow.png) | ![Riverbank](images/11riverbank.png) |
+<p align="center"><img src="images/11gerthreshold.png" alt="Doorway" width="46%"> &nbsp; <img src="images/11meadow.png" alt="Meadow" width="46%"><br><em>Doorway · Meadow</em></p>
+
+<p align="center"><img src="images/11riverbank.png" alt="Riverbank" width="74%"><br><em>Riverbank</em></p>
 
 ### What changes each season
 
@@ -172,36 +142,26 @@ I built the soundscape around three listening positions. Wind and grass become c
 |---|---|---|---|
 | Use the river and herd to learn the route. | Tall grass hides hollows. Inspect the ground for drainage. | Compare an exposed ridge with a sheltered route to water. | Trace the frozen channel to open water and check the remaining grazing. |
 
-| Spring ridge | Summer basin | Autumn pasture | Winter open water |
-|---|---|---|---|
-| ![Spring ridge](images/09hillview.png) | ![Summer basin](images/1503lakeherd.jpg) | ![Autumn pasture](images/final_thesis_image43.png) | ![Winter open water](images/final_thesis_image45.jpeg) |
+<p align="center"><img src="images/09hillview.png" alt="Spring ridge" width="46%"> &nbsp; <img src="images/1503lakeherd.jpg" alt="Summer basin" width="46%"><br><em>Spring ridge · Summer basin</em></p>
+
+<p align="center"><img src="images/final_thesis_image43.png" alt="Autumn pasture" width="46%"> &nbsp; <img src="images/final_thesis_image45.jpeg" alt="Winter open water" width="46%"><br><em>Autumn pasture · Winter open water</em></p>
 
 ---
 
-<a name="section-5"></a>
+## 5. Terrain → Campsite Score
 
-# 🧠 5. Terrain → Campsite Score
-
-## 5.1 Data Pipeline
+### Reading the terrain
 
 **Map pin → terrain sample → environmental factors → seasonal rules → campsite report**
-
-| Input | How the evaluator uses it |
-|---|---|
-| Map pin | Locates the candidate point on Unity Terrain. |
-| Grass height and density | Scales the two measurements separately before averaging them. |
-| Ger type | Sets the relative weights of water, flat ground, dryness, wind shelter and grass. |
-| Weather chapter | Applies the seasonal priorities or the separate winter formula. |
-| Report | Shows the score alongside the environmental conditions behind it. |
 
 ### Grass mapping
 
 The evaluator samples the selected point on Unity Terrain. Height and density each contribute half the grass value. This lets a dense patch of short grass score differently from equally dense tall grass.
 
-```csharp
-float cGrass = 0.5f * Ramp(grassDensity, 5f, 14f)
-             + 0.5f * Ramp(grassHeight, 0.12f, 0.50f);
-```
+> ```csharp
+> float cGrass = 0.5f * Ramp(grassDensity, 5f, 14f)
+>              + 0.5f * Ramp(grassHeight, 0.12f, 0.50f);
+> ```
 
 ### Ger type and scoring weights
 
@@ -214,19 +174,19 @@ float cGrass = 0.5f * Ramp(grassDensity, 5f, 14f)
 
 These are my base weights for the game. Summer blends 40% of the house score with 60% seasonal factors, including flood risk and herd distance. Autumn emphasises shelter and the route to water. Winter uses a separate formula for accessible resources. [Scoring code and calibration](week14.md)
 
-| Summer site comparison | Hollow and raised ground |
-|---|---|
-| ![Summer site comparison](images/final_thesis_image47.png) | ![Hollow and raised ground](images/final_thesis_image48.jpeg) |
+<p align="center"><img src="images/final_thesis_image47.png" alt="Summer site comparison" width="46%"> &nbsp; <img src="images/final_thesis_image48.jpeg" alt="Hollow and raised ground" width="46%"><br><em>Summer site comparison · Hollow and raised ground</em></p>
 
 ### Winter changes the route to water
 
 In winter the evaluator estimates a walking route across a two-metre grid. Steep cells block travel and snow raises the cost of crossing. If the estimated walk to water exceeds 90 metres, the code caps the normalised score at 0.45. A site beside a frozen bend can therefore score poorly even when the map shows water nearby.
 
+> ```csharp
+> if (r.walkWater > 90f) s = Mathf.Min(s, 0.45f);
+> ```
+
 ---
 
-<a name="section-6"></a>
-
-# 📊 6. TESTING
+## 6. Playtesting
 
 Five players tried the prototype with a headset and controllers. I looked at whether they understood the move and where the experience became difficult.
 
@@ -243,47 +203,19 @@ A participant could report several difficulties.
 
 ### Headset sessions
 
-<table>
-<tr>
-<td><img src="images/final_test_vr_01.jpg" alt="Participant using the VR prototype" width="280"></td>
-<td><img src="images/final_test_vr_02.jpg" alt="Participant wearing a headset during testing" width="280"></td>
-<td><img src="images/final_test_vr_03.jpg" alt="Participant holding VR controllers" width="280"></td>
-</tr>
-<tr>
-<td>Headset test session</td>
-<td>Headset test session</td>
-<td>Controller interaction</td>
-</tr>
-<tr>
-<td><img src="images/final_test_vr_04.jpg" alt="Side view of a headset test" width="280"></td>
-<td><img src="images/final_test_vr_05.jpg" alt="Participant using controllers in VR" width="280"></td>
-<td></td>
-</tr>
-<tr>
-<td>Headset test session</td>
-<td>Controller interaction</td>
-<td></td>
-</tr>
-</table>
+<p align="center"><img src="images/final_test_vr_01.jpg" alt="Participant using the VR prototype" width="46%"> &nbsp; <img src="images/final_test_vr_02.jpg" alt="Participant wearing a headset during testing" width="46%"><br><em>Participant using the VR prototype · Participant wearing a headset during testing</em></p>
+
+<p align="center"><img src="images/final_test_vr_03.jpg" alt="Participant holding VR controllers" width="46%"> &nbsp; <img src="images/final_test_vr_04.jpg" alt="Side view of a headset test" width="46%"><br><em>Participant holding VR controllers · Side view of a headset test</em></p>
+
+<p align="center"><img src="images/final_test_vr_05.jpg" alt="Participant using controllers in VR" width="74%"><br><em>Participant using controllers in VR</em></p>
 
 ### Projected gameplay sessions
 
-<table>
-<tr>
-<td><img src="images/final_test_projection_01.png" alt="Projected game dialogue during a test session" width="480"></td>
-<td><img src="images/final_test_projection_02.png" alt="Projected grassland and livestock during a test session" width="480"></td>
-</tr>
-<tr>
-<td>Dialogue and the riverside scene</td>
-<td>Grassland and livestock exploration</td>
-</tr>
-</table>
+<p align="center"><img src="images/final_test_projection_01.png" alt="Projected game dialogue during a test session" width="46%"> &nbsp; <img src="images/final_test_projection_02.png" alt="Projected grassland and livestock during a test session" width="46%"><br><em>Projected game dialogue during a test session · Projected grassland and livestock during a test session</em></p>
 
 ---
 
-<a name="section-7"></a>
-
-# 🌟 7. Core Contribution of the Work
+## 7. Core Contribution of the Work
 
 **The player chooses where to put a home they have already lived in.** The doorway, herd and river encountered during the first walk all matter again when placing the ger.
 
@@ -291,9 +223,7 @@ The scoring system connects a player’s observation to a consequence they can i
 
 ---
 
-<a name="section-8"></a>
-
-# ⚠️ 8. Limitations & Future Improvements
+## 8. Limitations & Future Improvements
 
 | Current limit | Next revision |
 |---|---|
