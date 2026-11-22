@@ -6,6 +6,7 @@
 
 ## Table of Contents
 
+- [Download the walkthrough (MP4)](videos/Video.mp4)
 - **YouTube walkthrough** <!-- Add the YouTube URL here -->
 - **Playable game build** <!-- Add the game download URL here -->
 - **Unity project files** <!-- Add the project URL here -->
