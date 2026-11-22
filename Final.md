@@ -75,6 +75,16 @@ I modelled the guide in Blender and matched his facial movements to his dialogue
 
 ## 4. Playing a chapter
 
+### How to play
+
+| Action | VR controllers | PC keyboard and mouse |
+|---|---|---|
+| Look around | Turn your head. | Move the mouse. |
+| Walk or steer the horse | Move the left thumbstick. | Use W, A, S and D. |
+| Ride faster | Hold the right trigger while riding. | Hold the right mouse button while riding. |
+| Speak to Bataa or mount the horse | When the prompt appears, press A on the right controller. | When the prompt appears, press E. |
+| Pet a sheep | Look at the sheep you want to pet and hold the trigger. | When the prompt appears, hold E to pet the nearest sheep. |
+
 ### The spring tutorial
 
 **1. Talk to Bataa**
@@ -131,7 +141,7 @@ Open Settle, mark your chosen campsite and select a ger type. Read the site repo
 
 **Placing the ger.** The settlement interface reveals one choice at a time. Players point to the ground, see a full-size ger appear and choose its type. I drew the four selection icons from above so the crown, cover and ropes distinguish the roofs at a small size. The final panel lists the conditions behind the score and lets players confirm the site or try another spot.
 
-<p align="center"><img src="images/1307yurticons.jpg" width="540" alt="Four ger selection icons viewed from above"></p>
+<p align="center"><img src="images/final_thesis_image39.png" width="660" alt="Top views of the ger roofs and their selection icons"><br><em>Ger roof shapes and settlement icons from Figure 5.22 of the thesis.</em></p>
 
 [Dialogue and visual references](week10.md) · [Map, guide and settlement screens](week13.md)
 
