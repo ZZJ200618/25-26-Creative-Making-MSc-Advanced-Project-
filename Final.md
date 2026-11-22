@@ -119,6 +119,22 @@ Open Settle, mark your chosen campsite and select a ger type. Read the site repo
 
 <p align="center"><img src="images/1308settlereport.jpg" width="460" alt="Campsite report"></p>
 
+### UI design
+
+**Talking to Bataa.** I wanted players to see the riverbank while Bataa was describing it. I placed the talk prompt beside him and the subtitles just below eye level. The short lines draw on the dialogue in *Red Dead Redemption 2*. White Inter text on a dark, frosted panel keeps the words readable against grass, sky and snow. Pressing A advances the conversation, giving players time to look up between lines.
+
+<p align="center"><img src="images/10subtitlebar.png" width="580" alt="Bataa’s subtitle bar with the continue prompt"></p>
+
+**Reading the pasture in VR.** I kept three controls low in the view: Map, Settle and Guide. Each pairs an icon with its name and controller button. After riding, players can open the guide to compare examples of water, ground, grass and animals. On the map they can pin what they actually saw and filter those pins when comparing places.
+
+<p align="center"><img src="images/1302navbuttons.jpg" width="540" alt="Map, Settle and Guide navigation buttons"></p>
+
+**Placing the ger.** The settlement interface reveals one choice at a time. Players point to the ground, see a full-size ger appear and choose its type. I drew the four selection icons from above so the crown, cover and ropes distinguish the roofs at a small size. The final panel lists the conditions behind the score and lets players confirm the site or try another spot.
+
+<p align="center"><img src="images/1307yurticons.jpg" width="540" alt="Four ger selection icons viewed from above"></p>
+
+[Dialogue and visual references](week10.md) · [Map, guide and settlement screens](week13.md)
+
 ### Spring · Warm grassland
 
 **Tutorial · Choose among three plausible camps**
