@@ -31,7 +31,7 @@ I used the research on seasonal movement to decide what the player could learn b
 
 <p align="center"><img src="images/final_thesis_image2.png" alt="Observe, interpret, decide and reflect." width="620"><br><em>Observe, interpret, decide and reflect.</em></p>
 
-<p align="center"><img src="images/final_thesis_image8.png" alt="The furnished ger where the spring patrol begins." width="660"><br><em>The furnished ger where the spring patrol begins.</em></p>
+
 
 ---
 
