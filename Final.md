@@ -24,8 +24,7 @@ During my visit to Mongolia, I noticed how differently people could read the sam
 
 *Ger near Mandalgovi, Mongolia. Photograph by Fischer (2010), [CC BY-SA 2.0](https://commons.wikimedia.org/wiki/File:Mongolian_Ger.jpg).*
 
-<details>
-<summary>Table 3.1  Tourist and herder perspectives on the same grassland</summary>
+#### Table 3.1  Tourist and herder perspectives on the same grassland
 
 | Dimension | Tourist perspective | Herder perspective |
 |---|---|---|
@@ -35,18 +34,17 @@ During my visit to Mongolia, I noticed how differently people could read the sam
 | Hillslope | Good view, good for photos | Aspect affects wind shelter and sunlight; enough flat space is needed to set up the ger |
 | Way of judging | A single intuitive impression | Comparing and trading off several conditions |
 
-</details>
-
 ### From research to a playable task
 
 I used the research on seasonal movement to decide what the player could learn by walking. A river is easy to spot from a distance. Whether its bank is level, wet or sheltered takes a closer look. I built the patrol around that change of scale, then added a map so players could bring observations from different places back to camp.
 
-<p align="center"><img src="images/final_thesis_image2.png" alt="Observation and decision cycle" width="46%"> &nbsp; <img src="images/final_thesis_image8.png" alt="Interior of the portable home" width="46%"><br><em>Observation and decision cycle · Interior of the portable home</em></p>
+<p align="center"><img src="images/final_thesis_image2.png" alt="Observe, interpret, decide and reflect." width="620"><br><em>Observe, interpret, decide and reflect.</em></p>
+
+<p align="center"><img src="images/final_thesis_image8.png" alt="The furnished ger where the spring patrol begins." width="660"><br><em>The furnished ger where the spring patrol begins.</em></p>
 
 ---
 
-<details>
-<summary>Table 3.2  Qualitative importance of environmental factors by season</summary>
+#### Table 3.2  Qualitative importance of environmental factors by season
 
 | Environmental factor | Warm season (spring, summer, autumn) | Cold season (winter) | Literature basis |
 |---|---|---|---|
@@ -55,8 +53,6 @@ I used the research on seasonal movement to decide what the player could learn b
 | Wind shelter and slope aspect | Low | High | Section 2.3.4 |
 | Terrain height and flooding | Medium | Low | Section 2.3.3 |
 | Flat ground for setting up | Medium | Medium | Section 2.3.4 |
-
-</details>
 
 ## 2. Technology Used
 
@@ -86,8 +82,7 @@ I moved the spring starting point indoors. Furniture follows the curved wall, le
 
 <p align="center"><img src="images/08yurtfurniture.png" alt="Furniture placement" width="46%"> &nbsp; <img src="images/08rooflight.png" alt="Roof light" width="46%"><br><em>Furniture placement · Roof light</em></p>
 
-<details>
-<summary>Table 5.1  Ger types and their functions in the prototype</summary>
+#### Table 5.1  Ger types and their functions in the prototype
 
 | Ger type | Appearance and top-view icon | Function in the prototype |
 |---|---|---|
@@ -95,8 +90,6 @@ I moved the spring starting point indoors. Furniture follows the curved wall, le
 | Windy (wind-resistant) | Low profile; roof poles evenly spaced | Reduces the wind-exposure penalty in autumn and winter |
 | Rainy (rain-proof) | Dark waterproof cover over the skylight | Reduces the waterlogging penalty in summer |
 | Cold (insulated) | Thicker felt; stitching on the inner ring emphasises its thickness | Reduces the penalty for deep snow and low-lying cold ground in winter |
-
-</details>
 
 ### A landscape players can read
 
@@ -110,8 +103,7 @@ I used free assets for the environment and livestock alongside my ger, furniture
 
 ---
 
-<details>
-<summary>Table 5.2  Grass parameters in the scenes and in scoring</summary>
+#### Table 5.2  Grass parameters in the scenes and in scoring
 
 | Item | Spring | Summer | Autumn | Winter |
 |---|---|---|---|---|
@@ -120,12 +112,9 @@ I used free assets for the environment and livestock alongside my ger, furniture
 | Grass sub-score | Density and height weighted 50% each | Same as spring | Same as spring | Based on visible grass density |
 | Engine scoring range | Density 5–14; height 0.12–0.50 m | Same as spring | Same as spring | Visible density 1–5 |
 
-</details>
-
 ## 4. Designing the patrol
 
-<details>
-<summary>Table 3.3  Game stages and their roles in the OIDR model</summary>
+#### Table 3.3  Game stages and their roles in the OIDR model
 
 | Game stage | OIDR stage | Role in the framework |
 |---|---|---|
@@ -135,8 +124,6 @@ I used free assets for the environment and livestock alongside my ger, furniture
 | Map marking and recording | Interpret | Organises scattered observations into comparable evidence |
 | Camp-moving decision | Decide | Choice based on the information the player has recorded |
 | Explanatory feedback and review | Reflect | Shows the advantages and risks of the choice and prompts the player to re-examine the judgement |
-
-</details>
 
 ### The playable route
 
@@ -160,9 +147,7 @@ I first considered starting outside the ger. Moving the starting point indoors m
 
 I wrote short prompts around what players can see. At the river, Bataa asks them to consider more than the distance to water. I aligned facial topology in Blender with the Unity lip-sync setup and tested the speaking and pointing animations. The closed mouth texture leaves little detail visible when the lips part.
 
-<p align="center"><img src="images/final_thesis_image11.png" alt="Character design" width="46%"> &nbsp; <img src="images/final_thesis_image12.jpeg" alt="Facial topology and lip sync" width="46%"><br><em>Character design · Facial topology and lip sync</em></p>
-
-<p align="center"><img src="images/final_thesis_image16.png" alt="Pointing animation" width="74%"><br><em>Pointing animation</em></p>
+<p align="center"><img src="images/final_thesis_image11.png" alt="Bataa character design" width="480"><br><em>Bataa character design</em></p>
 
 ### Recording observations
 
@@ -172,8 +157,7 @@ I kept dialogue panels translucent so the landscape stays visible behind the sub
 
 <p align="center"><img src="images/final_thesis_image39.png" alt="Ger selection icons" width="74%"><br><em>Ger selection icons</em></p>
 
-<details>
-<summary>Table 5.4  Controls on the VR and PC versions</summary>
+#### Table 5.4  Controls on the VR and PC versions
 
 | Action | VR | PC |
 |---|---|---|
@@ -182,8 +166,6 @@ I kept dialogue panels translucent so the landscape stays visible behind the sub
 | Speed up while riding | Hold the right trigger | Hold the right mouse button |
 | Talk or mount | Press right-hand A after the prompt appears | Press E after the prompt appears |
 | Pet a sheep | Look at the target sheep and hold the trigger | Hold E after the prompt appears; the nearest sheep is selected |
-
-</details>
 
 ### Finding places by ear
 
@@ -211,8 +193,7 @@ I built the soundscape around three listening positions. Wind and grass become c
 
 **Map pin → terrain sample → environmental factors → seasonal rules → campsite report**
 
-<details>
-<summary>Table 5.3  Terrain, water, wind and livestock parameters by level</summary>
+#### Table 5.3  Terrain, water, wind and livestock parameters by level
 
 | Design variable | Value or condition | Effect on site choice |
 |---|---|---|
@@ -223,8 +204,6 @@ I built the soundscape around three listening positions. Wind and grass become c
 | Wind direction and shelter | Fixed westerly wind; terrain sampled every 4 m upwind, up to 80 m | Earth banks and river banks change the exposure of a candidate site |
 | Sheep sheltering | Shelter when wind strength >0.78 for 3 s; return when <0.50 for 8 s | Guides players to look for sheltered positions |
 | Summer herd distance | Full score if the nearest livestock is ≤20 m away; zero at ≥55 m | The benefit of being near the herd must be weighed against basin waterlogging risk |
-
-</details>
 
 ### Grass mapping
 
@@ -246,7 +225,9 @@ The evaluator samples the selected point on Unity Terrain. Height and density ea
 
 These are my base weights for the game. Summer blends 40% of the house score with 60% seasonal factors, including flood risk and herd distance. Autumn emphasises shelter and the route to water. Winter uses a separate formula for accessible resources. [Scoring code and calibration](week14.md)
 
-<p align="center"><img src="images/final_thesis_image47.png" alt="Summer site comparison" width="46%"> &nbsp; <img src="images/final_thesis_image48.jpeg" alt="Hollow and raised ground" width="46%"><br><em>Summer site comparison · Hollow and raised ground</em></p>
+<p align="center"><img src="images/final_thesis_image47.png" alt="Summer campsite scores. The hollow scored 53 and the raised ground scored 82." width="600"><br><em>Summer campsite scores. The hollow scored 53 and the raised ground scored 82.</em></p>
+
+<p align="center"><img src="images/final_thesis_image48.jpeg" alt="The two reports show how conditions differed between the summer sites." width="700"><br><em>The two reports show how conditions differed between the summer sites.</em></p>
 
 ### Winter changes the route to water
 
@@ -273,8 +254,7 @@ Five players tried the prototype with a headset and controllers. I looked at whe
 
 A participant could report several difficulties.
 
-<details>
-<summary>Table 6.1  Post-play questionnaire (ten items)</summary>
+#### Table 6.1  Post-play questionnaire (ten items)
 
 | No. | Question | Response format |
 |---|---|---|
@@ -289,15 +269,9 @@ A participant could report several difficulties.
 | 9 | How severe was your physical discomfort at its worst during play? | None / mild / moderate / severe; comments optional |
 | 10 | If you felt discomfort, what were you doing the first time, and did you pause or stop afterwards? | Walking / turning / riding / mounting or dismounting / other / cannot recall / no discomfort; comments optional |
 
-</details>
-
 ### Headset sessions
 
-<p align="center"><img src="images/final_test_vr_01.jpg" alt="Participant using the VR prototype" width="46%"> &nbsp; <img src="images/final_test_vr_02.jpg" alt="Participant wearing a headset during testing" width="46%"><br><em>Participant using the VR prototype · Participant wearing a headset during testing</em></p>
-
-<p align="center"><img src="images/final_test_vr_03.jpg" alt="Participant holding VR controllers" width="46%"> &nbsp; <img src="images/final_test_vr_04.jpg" alt="Side view of a headset test" width="46%"><br><em>Participant holding VR controllers · Side view of a headset test</em></p>
-
-<p align="center"><img src="images/final_test_vr_05.jpg" alt="Participant using controllers in VR" width="74%"><br><em>Participant using controllers in VR</em></p>
+<p align="center"><img src="images/final_test_vr_01.jpg" alt="Participant using the VR prototype" width="16%"> <img src="images/final_test_vr_02.jpg" alt="Participant wearing a headset during testing" width="16%"> <img src="images/final_test_vr_03.jpg" alt="Participant holding VR controllers" width="16%"> <img src="images/final_test_vr_04.jpg" alt="Side view of a headset test" width="16%"> <img src="images/final_test_vr_05.jpg" alt="Participant using controllers in VR" width="16%"></p>
 
 ### Projected gameplay sessions
 
@@ -305,8 +279,7 @@ A participant could report several difficulties.
 
 ---
 
-<details>
-<summary>Table 6.2  Existing play-test feedback and what it can support (qualitative summary)</summary>
+#### Table 6.2  Existing play-test feedback and what it can support (qualitative summary)
 
 | Feedback theme | Existing feedback | Question still to verify |
 |---|---|---|
@@ -314,8 +287,6 @@ A participant could report several difficulties.
 | Site judgement | 2 players reported difficulty judging which site is more habitable | Was the height difference not visible, or hard to weigh once it was seen? |
 | Motion comfort | 3 players reported motion sickness | Which action first triggered the discomfort, and did it change the later route? |
 | Exploration pace | 2 players found the repeated back-and-forth monotonous | Is it the travel time, or does the return trip offer no new judgement to make? |
-
-</details>
 
 ## 7. Core Contribution of the Work
 
@@ -334,7 +305,7 @@ The scoring system connects a player’s observation to a consequence they can i
 | Five sessions give limited evidence of learning. | Run a larger follow-up and compare the clues players use across maps. |
 | The four chapters simplify local practice. | Review the terrain cues and seasonal trade-offs with herders. |
 
-<details><summary>Weekly production notes</summary>
+#### Weekly production notes
 
 - [Week 01 — Initial Research and Reflection](week1.md)
 - [Week 02 — Choosing a Direction](week2.md)
@@ -355,8 +326,6 @@ The scoring system connects a player’s observation to a consequence they can i
 - [Week 17 — The Winter Chapter](week17.md)
 - [Week 18 — Cover and Level Select Design](week18.md)
 - [Week 19 — Four Seasons, Four Sets of Rules](week19.md)
-
-</details>
 
 ## References
 
