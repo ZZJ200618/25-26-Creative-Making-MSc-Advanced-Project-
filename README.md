@@ -8,9 +8,6 @@ A VR game about choosing a seasonal camp on the Mongolian grassland. Players lea
 > Follow a complete patrol, see how the game evaluates a campsite and read what five players reported during testing.
 
 ## 🔗 Project Resources
-
-- 📁 [GitHub repository](https://github.com/ZZJ200618/25-26-Creative-Making-MSc-Advanced-Project-)
-- 🎨 [Interface and interaction design](week13.md)
 - 🎬 [Watch the walkthrough in your browser](https://zzj200618.github.io/25-26-Creative-Making-MSc-Advanced-Project-/) · [MP4 file](videos/Video.mp4)
 - 🎮 Playable game build <!-- Add the build URL here -->
 - 🛠️ Unity project files <!-- Add the project URL here -->
