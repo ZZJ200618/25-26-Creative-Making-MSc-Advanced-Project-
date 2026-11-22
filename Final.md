@@ -73,17 +73,49 @@ I modelled the guide in Blender and matched his facial movements to his dialogue
 
 ## 4. Playing a chapter
 
-**Leave home.** Spring opens inside the furnished ger. Walk through the doorway and meet Bataa. He asks you to scout a place where the family can move with its animals.
+### The spring tutorial
 
-**Explore the pasture.** Follow Bataa to the flock, approach a sheep and walk down to the river. Climb the ridge to compare the banks from above. Take the saddled horse to cover the longer stretches between possible camps.
+**1. Talk to Bataa**
 
-<p align="center"><img src="images/09guidemeeting.png" alt="Meeting the guide" width="46%"> &nbsp; <img src="images/1201sheep.jpg" alt="Approaching the flock" width="46%"><br><em>Meeting the guide · Approaching the flock</em></p>
+Step outside the family ger and speak to Bataa. He explains why you are going out onto the pasture: the family needs somewhere to move, and you will help choose the site.
 
-**Mark and compare.** Drop pins on the map while exploring. The field guide helps you check what you saw at each stop, from grass cover to shelter and access to water.
+<p align="center"><img src="images/09guidedialogue.png" width="460" alt="Bataa introducing the patrol"></p>
 
-<p align="center"><img src="images/1303map.jpg" alt="Map markers" width="46%"> &nbsp; <img src="images/1304guide.jpg" alt="Field guide" width="46%"><br><em>Map markers · Field guide</em></p>
+**2. Pet a sheep**
 
-**Choose where to settle.** Ride back to camp, mark your preferred site and select a ger. The report shows the strengths and risks of that choice. You can select another site and compare the result.
+Follow Bataa to the flock. Walk up to a sheep until the pet prompt appears, then use it to pet the animal. This is the first interaction on the patrol.
+
+<p align="center"><img src="images/1201sheep.jpg" width="460" alt="Approaching a sheep"></p>
+
+**3. Climb the hill**
+
+Leave the flock and walk uphill. Pause on the ridge to trace the river and see how the herd, the water and the camp sit in relation to one another.
+
+<p align="center"><img src="images/1202hill.jpg" width="460" alt="The view from the hill"></p>
+
+**4. Walk down to the river**
+
+Descend to the bank you saw from above. At water level, look at the slope of the bank and the ground beside it. This is where Bataa draws attention to the trade-off between easy access to water and a suitable place to pitch the ger.
+
+<p align="center"><img src="images/1203river.jpg" width="460" alt="Inspecting the riverbank"></p>
+
+**5. Ride the horse**
+
+Find the saddled horse near the river, approach it and mount. Ride across the pasture and back towards camp, looking again at the places you passed on foot.
+
+<p align="center"><img src="images/1205riding.jpg" width="460" alt="Returning on horseback"></p>
+
+**6. Read the field guide and use the map**
+
+After the ride, open the field guide. Use its entries on water, ground, grass and animals to review what you saw. Then open the map and drop pins at places you want to compare.
+
+<p align="center"><img src="images/1304guide.jpg" width="330" alt="Field guide"> &nbsp; <img src="images/1303map.jpg" width="330" alt="Observation map"></p>
+
+**7. Settle the camp**
+
+Open Settle, mark your chosen campsite and select a ger type. Read the site report to see how the ground, pasture and water access affected your choice. Confirm the site or choose another location.
+
+<p align="center"><img src="images/1308settlereport.jpg" width="460" alt="Campsite report"></p>
 
 ### Spring · Warm grassland
 
