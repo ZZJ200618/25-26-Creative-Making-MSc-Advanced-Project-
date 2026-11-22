@@ -80,11 +80,11 @@ I modelled the guide in Blender and matched his facial movements to his dialogue
 
 **Explore the pasture.** Follow Bataa to the flock, approach a sheep and walk down to the river. Climb the ridge to compare the banks from above. Take the saddled horse to cover the longer stretches between possible camps.
 
-<p align="center"><img src="images/09guidemeeting.png" alt="Meeting the guide" width="46%"> &nbsp; <img src="images/final_thesis_image28.jpeg" alt="Approaching the flock" width="46%"><br><em>Meeting the guide · Approaching the flock</em></p>
+<p align="center"><img src="images/09guidemeeting.png" alt="Meeting the guide" width="46%"> &nbsp; <img src="images/1201sheep.jpg" alt="Approaching the flock" width="46%"><br><em>Meeting the guide · Approaching the flock</em></p>
 
 **Mark and compare.** Drop pins on the map while exploring. The field guide helps you check what you saw at each stop, from grass cover to shelter and access to water.
 
-<p align="center"><img src="images/final_thesis_image34.png" alt="Map markers" width="46%"> &nbsp; <img src="images/final_thesis_image35.png" alt="Field guide" width="46%"><br><em>Map markers · Field guide</em></p>
+<p align="center"><img src="images/1303map.jpg" alt="Map markers" width="46%"> &nbsp; <img src="images/1304guide.jpg" alt="Field guide" width="46%"><br><em>Map markers · Field guide</em></p>
 
 **Choose where to settle.** Ride back to camp, mark your preferred site and select a ger. The report shows the strengths and risks of that choice. You can select another site and compare the result.
 
@@ -103,8 +103,26 @@ When you mark a site, the evaluator samples the terrain around the pin. It check
 
 Summer and autumn adjust the base score for the weather. In summer, the base contributes 40% and the seasonal factors contribute 60%, including flood risk and distance to the herd. Winter uses its own calculation for snow, forage, shelter and reachable water. A difficult walk to open water can cap the score even when the river looks close.
 
-In the summer trial below, the same ger scored **53** in a grassy hollow and **82** on slightly raised ground west of the lake. The hollow was closer to water, but rain could collect there. The report lets the player see what they gained and gave up by moving.
+In the summer trial below, the same ger scored **53** in a grassy hollow and **82** on slightly raised ground west of the lake. Rain collects in the hollow. The higher site drains well and is within easy reach of water. The report lets the player see what they gained and gave up by moving.
 
-<p align="center"><img src="images/final_thesis_image48.jpeg" alt="The two reports show how conditions differed between the summer sites." width="700"><br><em>The two reports show how conditions differed between the summer sites.</em></p>
+<p align="center"><img src="images/1505floodreport.jpg" width="700" alt="Summer campsite report for the grassy hollow"><br><em>Grassy hollow · 53/100. Rain collects here.</em></p>
+
+<p align="center"><img src="images/1506goodreport.jpg" width="700" alt="Summer campsite report for the rise west of the lake"><br><em>Rise west of the lake · 82/100. The ground drains well.</em></p>
 
 [Read the scoring code and calibration notes](week14.md)
+
+## 6. Playtesting and feedback
+
+Five people tried the game with a headset and controllers. After the session, I asked them to describe their task and explain how they chose a campsite. Three understood that they were finding a new home for the family. One missed that goal, and the fifth response was too brief to interpret.
+
+<p align="center"><img src="images/final_test_vr_01.jpg" alt="Participant using the VR prototype" width="16%"> <img src="images/final_test_vr_02.jpg" alt="Participant wearing a headset during testing" width="16%"> <img src="images/final_test_vr_03.jpg" alt="Participant holding VR controllers" width="16%"> <img src="images/final_test_vr_04.jpg" alt="Side view of a headset test" width="16%"> <img src="images/final_test_vr_05.jpg" alt="Participant using controllers in VR" width="16%"></p>
+
+| What players reported | What I would change |
+|---|---|
+| Three felt dizzy or uncomfortable. | Offer a more comfortable movement option. |
+| Two found it difficult to choose a site. | Ask players to compare two places and name the clue that guided their choice before showing the score. |
+| Two found the repeated journey monotonous. | Shorten the return trip after players finish marking the map. |
+
+Each player could report more than one difficulty. In a follow-up session, I would use an unfamiliar map to see whether players can explain a fresh decision using what they noticed on the first patrol.
+
+<p align="center"><img src="images/final_test_projection_01.png" alt="Projected game dialogue during a test session" width="46%"> &nbsp; <img src="images/final_test_projection_02.png" alt="Projected grassland and livestock during a test session" width="46%"><br><em>Projected game dialogue during a test session · Projected grassland and livestock during a test session</em></p>
