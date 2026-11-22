@@ -6,9 +6,6 @@
 
 ## 📌 Table of Contents
 
-- [Supporting tables, playtests and weekly journal](Project-notes.md)
-
-- [▶ Watch the walkthrough in browser](https://zzj200618.github.io/25-26-Creative-Making-MSc-Advanced-Project-/)
 - **YouTube walkthrough** <!-- Add the YouTube URL here -->
 - **Playable game build** <!-- Add the game download URL here -->
 - **Unity project files** <!-- Add the project URL here -->
