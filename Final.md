@@ -88,7 +88,29 @@ I modelled the guide in Blender and matched his facial movements to his dialogue
 
 **Choose where to settle.** Ride back to camp, mark your preferred site and select a ger. The report shows the strengths and risks of that choice. You can select another site and compare the result.
 
-The same decision returns in each chapter. Spring introduces the route. Summer rain draws attention to drainage, autumn wind makes shelter more valuable, and winter snow sends you looking for exposed grass and open water.
+### Spring · Warm grassland
+
+I placed the herd near the river and used patches of short grass to break up the taller meadow. From the ridge, players can see the bends in the river and compare three possible camps. Spring gives them time to walk down and check what the view from above leaves out: how level the bank feels underfoot and how far the animals would have to travel to drink.
+
+<p align="center"><img src="images/09hillview.png" width="640" alt="The spring pasture from the ridge."><br><em>The spring pasture from the ridge.</em></p>
+
+### Summer · Rain and flooding
+
+Rain and fog shorten the view across the lake basin. Tall grass can make a shallow hollow look much like the rise beside it. Players can follow the herd towards water, then inspect the shape of the ground before marking a camp. A small gain in elevation can keep the ger on drier ground while leaving the lake within reach.
+
+<p align="center"><img src="images/1501overview.jpg" width="640" alt="Rain across the summer lake basin."><br><em>Rain across the summer lake basin.</em></p>
+
+### Autumn · Wind and shelter
+
+Gusts pass through the straw-coloured grass. On the open ridge the moving stems make the exposure easy to see. Farther down, the sheep draw attention to patches where they can graze. Players compare the shelter offered by the slope with the journey the herd would make from there to the river.
+
+<p align="center"><img src="images/1602sheepinautumngrass.png" width="640" alt="Sheep grazing in the tall autumn pasture."><br><em>Sheep grazing in the tall autumn pasture.</em></p>
+
+### Winter · Snow and frozen water
+
+Most of the river freezes. Players must follow the channel to find open water and check whether the snowy bank is passable. Behind a ridge, shelter from the wind can come with deep drifts. Dry tufts showing through shallower snow help players find a site where animals can still reach both grass and water.
+
+<p align="center"><img src="images/1702river.jpg" width="640" alt="An open reach in the winter river."><br><em>An open reach in the winter river.</em></p>
 
 ## 5. How the campsite score works
 
